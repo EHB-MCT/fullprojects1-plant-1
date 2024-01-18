@@ -2,3 +2,13 @@
 
 nav {
 }
+
+.navigation-button:hover {
+	text-decoration: underline;
+	text-decoration-color: rgb(255, 0, 0);
+	transform: translateX(-10px);
+}
+
+.activepage {
+	text-decoration: underline;
+}

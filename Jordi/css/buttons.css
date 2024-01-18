@@ -1,7 +1,59 @@
 /* BUTTONS */
 
 .btn-primary {
+	color: #707e67;
+	font-family: "santelia-script", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-decoration: none;
+	padding: 0px 100px;
+	border-color: #707e67;
+	border-width: 2px;
+	border-radius: 15px;
+	text-decoration: none;
+	border-style: solid;
+	animation-name: greenisch;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
 }
-
+.btn-primary:hover {
+	background-color: #707e67;
+	color: #f2c6a1;
+	border-color: #707e67;
+	transition-timing-function: 1s;
+	transition: background-color 0.5s;
+}
+@keyframes greenisch {
+	0% {
+		border-color: #707e67;
+	}
+	50% {
+		border-color: #a1966b;
+	}
+	100% {
+		border-color: #707e67;
+	}
+}
 .btn-secondary {
+	color: #707e67;
+	font-family: "santelia-script", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-decoration: none;
+	padding: 0px 100px;
+	border-color: #707e67;
+	border-width: 2px;
+	border-radius: 15px;
+	text-decoration: none;
+	border-style: solid;
+	animation-name: greenisch;
+	animation-duration: 5s;
+	animation-timing-function: infinite;
+}
+.btn-secondary:hover {
+	background-color: #707e67;
+	color: #f2c6a1;
+	border-color: #707e67;
+	transition-timing-function: 1s;
+	transition: background-color 0.5s;
 }

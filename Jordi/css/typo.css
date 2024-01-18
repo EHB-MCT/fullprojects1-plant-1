@@ -1,25 +1,68 @@
+@import url("https://use.typekit.net/jaj4nzg.css");
 /* TYPOGRAPHY */
 
 h1 {
+	font-family: "oscine", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	color: #da593c;
 }
 
 h2 {
+	font-family: "santelia-script", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #da593c;
 }
 
 h3 {
+	font-family: "oscine", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	color: #da593c;
 }
 
 h4 {
+	font-family: "oscine", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	color: #da593c;
 }
 
 h5 {
+	font-family: "santelia-script", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #da593c;
 }
 
 h6 {
+	font-family: "santelia-script", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #da593c;
 }
 
 p {
+	font-family: "omnes-pro", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: #733123;
 }
 
 a {
+	font-family: "omnes-pro", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: #733123;
+	text-decoration: none;
+}
+li {
+	font-family: "omnes-pro", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: #733123;
+	text-align: right;
+	list-style-position: inside;
+	direction: rtl;
 }
