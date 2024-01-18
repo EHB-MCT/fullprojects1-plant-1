@@ -5,36 +5,24 @@ h1 {
 	font-family: "canto-brush", serif;
 	font-weight: 700;
 	font-style: normal;
+	text-align: center;
+	color: white;
+	background-color: #024031;
 }
 
 h2 {
 	font-family: "canto-brush", serif;
 	font-weight: 700;
 	font-style: normal;
+	color: #3e8564;
 }
 
 h3 {
 	font-family: "canto-brush", serif;
 	font-weight: 700;
 	font-style: normal;
-}
-
-h4 {
-	font-family: "canto-brush", serif;
-	font-weight: 700;
-	font-style: normal;
-}
-
-h5 {
-	font-family: "canto-brush", serif;
-	font-weight: 700;
-	font-style: normal;
-}
-
-h6 {
-	font-family: "canto-brush", serif;
-	font-weight: 700;
-	font-style: normal;
+	color: white;
+	background-color: #024031;
 }
 
 p {

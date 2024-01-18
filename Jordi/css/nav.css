@@ -1,6 +1,15 @@
 @import url("https://use.typekit.net/jaj4nzg.css");
 /* NAVIGATION */
 
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #707e67;
+}
+h1 {
+	margin: 0px;
+}
 nav {
 	text-align: right;
 	list-style-position: inside;
@@ -15,7 +24,7 @@ nav li {
 	list-style: disc;
 }
 .activepage {
-	color: #707e67;
+	color: #486d48;
 	text-decoration: underline;
 }
 
