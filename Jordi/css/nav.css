@@ -1,4 +1,40 @@
+@import url("https://use.typekit.net/jaj4nzg.css");
 /* NAVIGATION */
 
 nav {
+	text-align: right;
+	list-style-position: inside;
+	direction: rtl;
+	padding-right: 15px;
+	background-color: #808e76;
+}
+nav li:first-child {
+	list-style: circle;
+}
+nav li {
+	list-style: disc;
+}
+.activepage {
+	color: #707e67;
+	text-decoration: underline;
+}
+
+.navigation-button {
+	color: white;
+}
+.navigation-button:hover {
+	color: #f8dec9;
+	text-decoration-thickness: 5px;
+	text-decoration: underline;
+}
+nav li::marker {
+	color: white;
+}
+nav li:first-child::marker {
+	color: #707e67;
+}
+nav a {
+	font-family: "omnes-pro", sans-serif;
+	font-weight: 300;
+	font-style: normal;
 }
