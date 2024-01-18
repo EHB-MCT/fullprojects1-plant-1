@@ -5,38 +5,12 @@ h1 {
 	font-family: "oscine", sans-serif;
 	font-weight: 800;
 	font-style: normal;
-	color: #da593c;
+	font-size: 60px;
+	color: white;
+	background-color: #707e67;
 }
 
 h2 {
-	font-family: "santelia-script", sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	color: #da593c;
-}
-
-h3 {
-	font-family: "oscine", sans-serif;
-	font-weight: 800;
-	font-style: normal;
-	color: #da593c;
-}
-
-h4 {
-	font-family: "oscine", sans-serif;
-	font-weight: 800;
-	font-style: normal;
-	color: #da593c;
-}
-
-h5 {
-	font-family: "santelia-script", sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	color: #da593c;
-}
-
-h6 {
 	font-family: "santelia-script", sans-serif;
 	font-weight: 700;
 	font-style: normal;
@@ -62,4 +36,5 @@ li {
 	font-weight: 400;
 	font-style: normal;
 	color: #733123;
+	list-style: none;
 }

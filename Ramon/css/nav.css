@@ -1,14 +1,21 @@
 /* NAVIGATION */
 
-nav {
+nav li {
+	text-decoration: none;
+	list-style: none;
+	display: inline;
 }
-
+nav {
+	background-color: white;
+	padding: 5px;
+}
 .navigation-button:hover {
 	text-decoration: underline;
-	text-decoration-color: rgb(255, 0, 0);
-	transform: translateX(-10px);
+	text-decoration-color: grey;
 }
-
+.navigation-button {
+	padding: 5px 15px;
+}
 .activepage {
 	text-decoration: underline;
 }
