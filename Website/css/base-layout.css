@@ -146,47 +146,8 @@ h1 {
 	z-index: -1;
 	position: absolute;
 }
-<<<<<<< HEAD
 svg {
 	height: 400px;
 	z-index: -2;
 	position: absolute;
-=======
-.missie {
-	display: flex;
-	align-items: center;
-}
-.missie div {
-	flex: 1;
-}
-.missie-image {
-	text-align: center;
-}
-.missie-image img {
-	width: 50%;
-}
-.plantbewustzijn {
-	display: flex;
-	align-items: center;
-	margin-top: 200px;
-}
-.plantbewustzijn div {
-	flex: 1;
-}
-.carriere {
-	display: flex;
-	align-items: center;
-	margin-top: 600px;
-}
-.carriere div {
-	flex: 1;
-}
-.boodschap {
-	display: flex;
-	align-items: center;
-	margin-top: 600px;
-}
-.boodschap div {
-	flex: 1;
->>>>>>> 1d57a3e6e992fecef5dbbc4c3869cd7f691dc6f6
 }
