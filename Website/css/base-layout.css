@@ -112,3 +112,40 @@ h1 {
 	z-index: -1;
 	position: absolute;
 }
+.missie {
+	display: flex;
+	align-items: center;
+}
+.missie div {
+	flex: 1;
+}
+.missie-image {
+	text-align: center;
+}
+.missie-image img {
+	width: 50%;
+}
+.plantbewustzijn {
+	display: flex;
+	align-items: center;
+	margin-top: 200px;
+}
+.plantbewustzijn div {
+	flex: 1;
+}
+.carriere {
+	display: flex;
+	align-items: center;
+	margin-top: 600px;
+}
+.carriere div {
+	flex: 1;
+}
+.boodschap {
+	display: flex;
+	align-items: center;
+	margin-top: 600px;
+}
+.boodschap div {
+	flex: 1;
+}
