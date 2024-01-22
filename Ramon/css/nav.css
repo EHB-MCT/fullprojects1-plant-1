@@ -1,17 +1,5 @@
 /* NAVIGATION */
 
-nav li {
-	text-decoration: none;
-	list-style: none;
-	display: inline;
-	justify-content: space-evenly;
-}
-nav {
-	background-color: white;
-	padding: 5px;
-	justify-content: center;
-	display: flex;
-}
 .navigation-button:hover {
 	text-decoration: underline;
 	text-decoration-color: grey;

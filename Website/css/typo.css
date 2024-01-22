@@ -1,0 +1,52 @@
+@import url("https://use.typekit.net/jaj4nzg.css");
+/* TYPOGRAPHY */
+
+h1 {
+	font-family: "oscine", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 125px;
+	color: white;
+}
+
+h2 {
+	font-family: "santelia-script", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #da593c;
+	font-size: 50px;
+}
+h3 {
+	font-family: "oscine", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 50px;
+	color: white;
+}
+
+p {
+	font-family: "omnes-pro", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: #733123;
+	font-size: 20px;
+}
+
+a {
+	font-family: "omnes-pro", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: #733123;
+	text-decoration: none;
+}
+li {
+	font-family: "omnes-pro", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #733123;
+	list-style: none;
+	font-size: 20px;
+}
+ul {
+	padding-left: 0px;
+}
