@@ -8,7 +8,7 @@ body {
 .header {
 	padding: 0px;
 	border-top-right-radius: 23px;
-	border-top-left-radius: 23px;
+	border-top-left-radius: 20px;
 	border-left: solid #3e2e14;
 	border-right: solid #3e2e14;
 	border-top: solid #3e2e14;
@@ -64,7 +64,7 @@ h1 {
 	width: 60%;
 }
 .home-div3 {
-	padding: 1% 45px 25px 13%;
+	padding: 1% 45px 15px 13%;
 	height: 20%;
 	display: flex;
 	justify-content: space-between;
@@ -99,8 +99,7 @@ h1 {
 }
 .background {
 	width: 97.75%;
-	border-top-right-radius: 22.5px;
-	border-top-left-radius: 10px;
+	border-radius: 22.5px;
 	padding-right: 0px;
 	z-index: -3;
 	position: absolute;
