@@ -9,17 +9,23 @@ body {
 	padding: 0px;
 	border-top-right-radius: 23px;
 	border-top-left-radius: 23px;
+	border-left: solid #3e2e14;
+	border-right: solid #3e2e14;
+	border-top: solid #3e2e14;
 }
 h1 {
 	padding-top: 1%;
 	padding-left: 2%;
 }
 .home-div1 {
-	padding: 2% 45px 30px 5%;
+	padding: 2% 45px 10% 5%;
 	height: 20%;
-	margin-bottom: 5%;
 	display: flex;
 	justify-content: space-between;
+	border-left: solid;
+	border-right: solid;
+	border-left-color: #3e2e14;
+	border-right-color: #3e2e14;
 }
 .home-div1-text {
 	padding-top: 0%;
@@ -37,11 +43,15 @@ h1 {
 	padding-left: 17.5%;
 }
 .home-div2 {
-	padding: 7.5% 45px 30px 10px;
-	margin-bottom: 50px;
+	padding: 5% 45px 5% 10px;
+
 	display: flex;
 	height: 20%;
 	justify-content: space-between;
+	border-left: solid;
+	border-right: solid;
+	border-left-color: #3e2e14;
+	border-right-color: #3e2e14;
 }
 .home-div2-text {
 	width: 45%;
@@ -54,10 +64,14 @@ h1 {
 	width: 60%;
 }
 .home-div3 {
-	padding: 3% 45px 30px 13%;
+	padding: 1% 45px 25px 13%;
 	height: 20%;
 	display: flex;
 	justify-content: space-between;
+	border-left: solid;
+	border-right: solid;
+	border-left-color: #3e2e14;
+	border-right-color: #3e2e14;
 }
 .home-div3-text {
 	width: 32.5%;
@@ -78,14 +92,15 @@ h1 {
 .kader {
 	margin: 15px 15px 25px 15px;
 	border: solid;
-	border-color: #3e2e14;
 	border-radius: 25px;
+	border-color: #707e67;
 	z-index: -2;
 	height: 103.25%;
 }
 .background {
 	width: 97.75%;
-	border-radius: 22.5px;
+	border-top-right-radius: 22.5px;
+	border-top-left-radius: 10px;
 	padding-right: 0px;
 	z-index: -3;
 	position: absolute;
