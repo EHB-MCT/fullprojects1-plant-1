@@ -59,3 +59,8 @@
 	border-radius: 5px;
 	resize: none;
 }
+@media screen and (max-width: 1536px) {
+	.home-div4-formulier {
+		padding-top: 25%;
+	}
+}

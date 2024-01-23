@@ -17,7 +17,6 @@ nav {
 	direction: rtl;
 
 	padding: 10px 25px 0px 40px;
-	border-top-right-radius: 23px;
 }
 nav li:first-child {
 	list-style: circle;
@@ -53,7 +52,6 @@ nav a {
 }
 .nav-image {
 	width: 97.75%;
-	border-radius: 23px;
 	padding-right: 0px;
 	z-index: -1;
 	position: absolute;
