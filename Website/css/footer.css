@@ -64,3 +64,20 @@
 		padding-top: 25%;
 	}
 }
+@media screen and (max-width: 1367px) {
+	.home-div4-formulier {
+		padding-top: 20%;
+	}
+	.home-div4 {
+		padding: 0%;
+		height: 20%;
+	}
+}
+@media screen and (max-width: 1281) {
+	.home-div4-formulier {
+	}
+	.home-div4 {
+		padding: 15%;
+		height: 20%;
+	}
+}
