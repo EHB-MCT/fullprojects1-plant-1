@@ -65,8 +65,7 @@
 	text-align: center;
 	margin-right: 65%;
 }
-.btn-secondary//:hover
-{
+.btn-secondary:hover {
 	background-color: #707e67;
 	color: #f8dec9;
 	border-color: #707e67;
