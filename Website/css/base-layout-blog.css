@@ -68,7 +68,7 @@
 	}
 
 	.background {
-		width: 98%;
+		width: 100%;
 
 		z-index: -3;
 		position: absolute;
@@ -215,7 +215,7 @@
 	}
 
 	.background {
-		width: 98%;
+		width: 100%;
 		z-index: -3;
 		position: absolute;
 	}
@@ -362,7 +362,7 @@
 	}
 
 	.background {
-		width: 98%;
+		width: 100%;
 		z-index: -3;
 		position: absolute;
 	}
@@ -509,7 +509,7 @@
 	}
 
 	.background {
-		width: 98%;
+		width: 100%;
 		z-index: -3;
 		position: absolute;
 	}
