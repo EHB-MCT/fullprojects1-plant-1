@@ -57,3 +57,11 @@ nav a {
 	position: absolute;
 	margin-top: -5px;
 }
+@media screen and (max-width: 1281px) {
+	nav {
+		padding-top: 0px;
+	}
+	nav ul {
+		margin-top: 10px;
+	}
+}
