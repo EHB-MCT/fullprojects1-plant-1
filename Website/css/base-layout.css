@@ -124,7 +124,7 @@ h1 {
 }
 .kader {
 	margin: 15px 15px 25px 15px;
-	border: solid;
+	border: none;
 	border-radius: 25px;
 
 	border-color: #707e67;
@@ -150,4 +150,84 @@ svg {
 	height: 400px;
 	z-index: -2;
 	position: absolute;
+}
+
+.missie {
+	display: flex;
+	padding-top: 50px;
+	align-items: center;
+	border-left: solid;
+	border-right: solid;
+	border-left-color: #3e2e14;
+	border-right-color: #3e2e14;
+}
+.missie div {
+	flex: 1;
+}
+.missie-image {
+	text-align: center;
+}
+.missie-image img {
+	width: 500px;
+}
+.missie-text {
+	padding-right: 200px;
+}
+.plantbewustzijn {
+	display: flex;
+	padding-top: 100px;
+	align-items: center;
+	border-left: solid;
+	border-right: solid;
+	border-left-color: #3e2e14;
+	border-right-color: #3e2e14;
+}
+.plantbewustzijn div {
+	flex: 1;
+}
+.plantbewustzijn-image {
+	text-align: center;
+}
+.plantbewustzijn-text {
+	margin-bottom: 150px;
+	padding-left: 200px;
+}
+.carriere {
+	display: flex;
+	padding-top: 100px;
+	align-items: center;
+	border-left: solid;
+	border-right: solid;
+	border-left-color: #3e2e14;
+	border-right-color: #3e2e14;
+}
+.carriere div {
+	flex: 1;
+}
+.carriere-image {
+	text-align: center;
+}
+.carriere-text {
+	margin-bottom: 150px;
+	padding-left: 200px;
+}
+.boodschap {
+	display: flex;
+	padding-top: 400px;
+	padding-bottom: 300px;
+	align-items: center;
+	border-left: solid;
+	border-right: solid;
+	border-left-color: #3e2e14;
+	border-right-color: #3e2e14;
+}
+.boodschap div {
+	flex: 1;
+}
+
+.boodschap-image img {
+	width: 650px;
+}
+.boodschap-text {
+	padding-right: 200px;
 }
