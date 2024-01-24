@@ -5,7 +5,7 @@ h1 {
 	font-family: "omnes-pro", sans-serif;
 	font-weight: 800;
 	font-style: normal;
-	font-size: 750%;
+	font-size: 7.5vw;
 	color: white;
 }
 
@@ -14,8 +14,8 @@ h2 {
 	font-weight: 700;
 	font-style: normal;
 	color: #da593c;
-	font-size: 50px;
-	margin-bottom: 2.5%;
+	font-size: 3vw;
+	margin-bottom: 0.5vw;
 }
 h3 {
 	font-family: "omnes-pro", sans-serif;
@@ -31,7 +31,7 @@ p {
 	font-weight: 500;
 	font-style: normal;
 	color: #733123;
-	font-size: 20px;
+	font-size: 1.25vw;
 	margin-bottom: 7.5%;
 }
 
@@ -48,14 +48,14 @@ li {
 	font-style: normal;
 	color: #733123;
 	list-style: none;
-	font-size: 20px;
+	font-size: 1.25vw;
 }
 ul {
-	padding-left: 0px;
-	margin-bottom: 7.5%;
+	padding-left: 0vw;
+	margin-bottom: 1vw;
 }
 .contact {
-	font-size: 80px;
+	font-size: 5.5vw;
 	font-weight: 600;
 	font-style: normal;
 	font-family: "omnes-pro", sans-serif;
