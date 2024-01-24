@@ -2,7 +2,7 @@
 body {
 	margin: 0px;
 	background-color: #707e67;
-	height: 2658.6375px;
+	height: 1900px;
 }
 .header {
 	padding: 0px;
@@ -19,14 +19,7 @@ h1 {
 	z-index: -3;
 	position: absolute;
 }
-.footer {
-	margin: -20px;
-	width: 100%;
 
-	padding-right: 0px;
-	z-index: -1;
-	position: absolute;
-}
 svg {
 	height: 400px;
 	z-index: -2;
@@ -42,6 +35,7 @@ svg {
 	flex: 1;
 }
 .missie-image {
+	padding-left: 100px;
 	text-align: center;
 }
 .missie-image img {
@@ -60,29 +54,36 @@ svg {
 }
 .plantbewustzijn-image {
 	text-align: center;
+	padding-right: 150px;
 }
 .plantbewustzijn-text {
 	margin-bottom: 150px;
-	padding-left: 200px;
+	padding-right: 100px;
+	margin-left: 200px;
 }
 .carriere {
 	display: flex;
 	padding-top: 100px;
 	align-items: center;
 }
-.carriere div {
-	flex: 1;
-}
-.carriere-image {
+
+.carriere-video {
 	text-align: center;
+	border: black solid 1px;
+	flex: 60%;
+	margin-right: 150px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 .carriere-text {
 	margin-bottom: 150px;
-	padding-left: 200px;
+	padding-left: 150px;
+	padding-right: 150px;
+	flex: 40%;
 }
 .boodschap {
 	display: flex;
-	padding-top: 400px;
+	padding-top: 300px;
 	padding-bottom: 300px;
 	align-items: center;
 }
@@ -92,7 +93,11 @@ svg {
 
 .boodschap-image img {
 	width: 650px;
+	padding-top: 100px;
 }
 .boodschap-text {
-	padding-right: 200px;
+	padding-right: 150px;
+}
+.boodschap-text p {
+	margin-bottom: 100px;
 }
