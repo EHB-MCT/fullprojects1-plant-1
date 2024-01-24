@@ -2,7 +2,7 @@
 /* TYPOGRAPHY */
 
 h1 {
-	font-family: "oscine", sans-serif;
+	font-family: "omnes-pro", sans-serif;
 	font-weight: 800;
 	font-style: normal;
 	font-size: 750%;
@@ -15,9 +15,10 @@ h2 {
 	font-style: normal;
 	color: #da593c;
 	font-size: 50px;
+	margin-bottom: 2.5%;
 }
 h3 {
-	font-family: "oscine", sans-serif;
+	font-family: "omnes-pro", sans-serif;
 	font-weight: 800;
 	font-style: normal;
 	font-size: 50px;
@@ -30,6 +31,7 @@ p {
 	font-style: normal;
 	color: #733123;
 	font-size: 20px;
+	margin-bottom: 7.5%;
 }
 
 a {
@@ -49,10 +51,11 @@ li {
 }
 ul {
 	padding-left: 0px;
+	margin-bottom: 7.5%;
 }
 .contact {
 	font-size: 80px;
-	font-weight: 800;
+	font-weight: 600;
 	font-style: normal;
-	font-family: "oscine", sans-serif;
+	font-family: "omnes-pro", sans-serif;
 }

@@ -1,4 +1,4 @@
-.home-div4 {
+.div-contact {
 	padding: 2% 5% 0% 5%;
 	margin-top: 0px;
 	height: 30%;
@@ -7,7 +7,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 }
-.home-div4-formulier {
+.div-contact-formulier {
 	width: 100%;
 	padding-top: 20%;
 	padding-left: 5%;
@@ -15,7 +15,7 @@
 	margin-left: 10%;
 	justify-content: space-between;
 }
-.home-div4-formulier input {
+.div-contact-formulier input {
 	color: white;
 	background-color: #7b8874;
 	border-radius: 7.5px;
@@ -59,9 +59,23 @@
 	border-radius: 5px;
 	resize: none;
 }
+.footer {
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+}
+svg {
+	height: 400px;
+	z-index: -2;
+	position: absolute;
+}
 @media screen and (max-width: 1536px) {
 	.home-div4-formulier {
 		padding-top: 25%;
+	}
+	.home-div4 {
+		padding-top: 5%;
+		padding-left: 0%;
 	}
 }
 @media screen and (max-width: 1367px) {
