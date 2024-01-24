@@ -34,7 +34,7 @@ h1 {
 .blog-div2 {
 	padding: 2.5% 5% 5% 10%;
 	display: flex;
-	height: 25%;
+	height: 20%;
 	justify-content: space-between;
 }
 .blog-div2-text {
@@ -47,20 +47,37 @@ h1 {
 .blog-div3 {
 	padding: 2.5% 5% 5% 10%;
 	display: flex;
-	height: 25%;
+	height: 22.5%;
 	justify-content: space-between;
 }
 .blog-div3-text {
 	width: 55%;
-	padding-top: 10%;
+	padding-top: 5%;
 }
 .log-div3-image {
 	width: 40%;
 }
-
+.blog-div4 {
+	padding: 2.5% 5% 5% 10%;
+	display: flex;
+	height: 30%;
+	justify-content: space-between;
+}
+.blog-div4-info {
+	display: flex;
+	justify-content: space-evenly;
+}
+.blog-div4-dates li {
+	margin-bottom: 550%;
+}
 .background {
 	width: 100%;
 
 	z-index: -3;
 	position: absolute;
+}
+.div-contact {
+	padding-top: 0%;
+	padding-left: 0%;
+	height: 15%;
 }
