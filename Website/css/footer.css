@@ -63,6 +63,10 @@
 	.home-div4-formulier {
 		padding-top: 25%;
 	}
+	.home-div4 {
+		padding-top: 5%;
+		padding-left: 0%;
+	}
 }
 @media screen and (max-width: 1367px) {
 	.home-div4-formulier {
