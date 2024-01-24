@@ -1,0 +1,114 @@
+body {
+	margin: 0px;
+	background-color: #707e67;
+	height: 1900px;
+}
+.header {
+	padding: 0px;
+}
+h1 {
+	padding-top: 1%;
+	padding-left: 2%;
+}
+.background {
+	width: 100%;
+
+	padding-right: 0px;
+	z-index: -3;
+	position: absolute;
+}
+
+svg {
+	height: 400px;
+	z-index: -2;
+	position: absolute;
+}
+
+.empathie {
+	display: flex;
+	padding-top: 50px;
+	align-items: center;
+}
+.empathie div {
+	flex: 1;
+}
+.empathie-image {
+	padding-left: 100px;
+	text-align: center;
+}
+.empathie-image img {
+	width: 500px;
+}
+.empathie-text {
+	padding-right: 200px;
+}
+.wetenschap {
+	display: flex;
+	padding-top: 100px;
+	align-items: center;
+}
+.wetenschap div {
+	flex: 1;
+}
+.wetenschap-image {
+	text-align: center;
+	padding-right: 150px;
+}
+.wetenschap-text {
+	margin-bottom: 150px;
+	padding-right: 100px;
+	margin-left: 200px;
+}
+
+.filosofie {
+	display: flex;
+	padding-top: 50px;
+	align-items: center;
+}
+.filosofie div {
+	flex: 1;
+}
+.filosofie-image {
+	padding-left: 100px;
+	text-align: center;
+}
+.filosofie-image img {
+	width: 500px;
+}
+.filosofie-text {
+	padding-right: 200px;
+}
+.duurzaamheid {
+	display: flex;
+	padding-top: 300px;
+	padding-bottom: 300px;
+	align-items: center;
+}
+.duurzaamheid div {
+	flex: 1;
+}
+
+.duurzaamheid-image img {
+	width: 650px;
+	padding-top: 100px;
+}
+.duurzaamheid-text {
+	padding-right: 150px;
+}
+.tuinieren {
+	display: flex;
+	padding-top: 100px;
+	align-items: center;
+}
+.tuinieren div {
+	flex: 1;
+}
+.tuinieren-image {
+	text-align: center;
+	padding-right: 150px;
+}
+.tuinieren-text {
+	margin-bottom: 150px;
+	padding-right: 100px;
+	margin-left: 200px;
+}
