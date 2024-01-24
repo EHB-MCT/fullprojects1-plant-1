@@ -12,17 +12,16 @@ h1 {
 	padding-left: 2%;
 }
 .blog-div1 {
-	padding: 2% 5% 10% 5%;
-	height: 25%;
+	padding: 0% 5% 5% 5%;
+	height: 18%;
 	display: flex;
 	justify-content: space-between;
 }
 .blog-div1-text {
-	padding-top: 10%;
-	width: 60%;
+	width: 40%;
 }
 .blog-div1-image {
-	width: 70%;
+	width: 40%;
 	padding-top: 1%;
 	padding-right: 5%;
 	align-items: right;
@@ -33,37 +32,30 @@ h1 {
 	padding-left: 17.5%;
 }
 .blog-div2 {
-	padding: 7.5% 5% 5% 10px;
+	padding: 2.5% 5% 5% 10%;
 	display: flex;
 	height: 25%;
 	justify-content: space-between;
 }
 .blog-div2-text {
-	width: 45%;
-	padding-left: 10%;
-	padding-top: 5%;
+	width: 55%;
+	padding-top: 10%;
 }
-.blog-div2-text li {
-	margin-bottom: 4%;
-}
-.blog-div2-image {
-	width: 60%;
+.log-div2-image {
+	width: 40%;
 }
 .blog-div3 {
-	padding: 2.5% 5% 1.25% 13%;
-	height: 25.5%;
+	padding: 2.5% 5% 5% 10%;
 	display: flex;
+	height: 25%;
 	justify-content: space-between;
 }
 .blog-div3-text {
-	width: 32.5%;
-	padding-top: 5%;
+	width: 55%;
+	padding-top: 10%;
 }
-.blog-div3-text li {
-	margin-bottom: 5%;
-}
-.blog-div3-image {
-	width: 62.5%;
+.log-div3-image {
+	width: 40%;
 }
 
 .background {
