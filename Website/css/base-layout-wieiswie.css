@@ -3,7 +3,6 @@
 body {
 	margin: 0px;
 	background-color: #707e67;
-	height: 2658.6375px;
 }
 .header {
 	padding: 0px;
@@ -30,7 +29,7 @@ h6 {
 	margin: 1vh 0vh;
 }
 .ghost-image {
-	height: 70vh;
+	height: 50vh;
 }
 .WIW-div1 {
 	margin: 0 auto 6% auto;
@@ -41,7 +40,7 @@ h6 {
 .WIW-kolommen {
 	width: 100%;
 	display: flex;
-	padding-top: 5vh;
+	padding-top: 1vw;
 	justify-content: space-between;
 }
 .WIW-div1-titel {
