@@ -1,5 +1,7 @@
 /* BASE LAYOUT FLEXBOX */
-
+.mobileBackground {
+	display: none;
+}
 body {
 	margin: 0px;
 	background-color: #707e67;
@@ -62,6 +64,11 @@ h6 {
 	z-index: -3;
 	position: absolute;
 }
+.mobileBackground {
+	width: 100%;
+	z-index: -3;
+	position: absolute;
+}
 .footer {
 	width: 100%;
 	z-index: -1;
@@ -75,4 +82,50 @@ a p:hover {
 }
 
 @media screen and (max-width: 480px) {
+	.background {
+		display: none;
+	}
+	.mobileBackground {
+		display: block;
+	}
+	.header {
+		display: none;
+	}
+	.ghost-image {
+		height: 90vw;
+	}
+	.WIW-div1 {
+		width: 80%;
+		flex-wrap: wrap;
+	}
+	.WIW-kolommen {
+		flex-wrap: wrap;
+		text-align: right;
+	}
+
+	.WIW-div1-titel {
+		width: 100%;
+	}
+	.WIW-div1-kolom1,
+	.WIW-div1-kolom2 {
+		margin-left: auto;
+		width: 100%;
+	}
+	.name {
+		margin-left: auto;
+	}
+	h2 {
+		text-align: left;
+		font-size: 7vw;
+		margin: 3vw 0px 0px 0px;
+	}
+	p {
+		margin-top: 4.2vw;
+		text-align: right;
+		font-size: 6vw;
+	}
+	h6 {
+		font-size: 4vw;
+		margin: 1vw 0vh;
+	}
 }
