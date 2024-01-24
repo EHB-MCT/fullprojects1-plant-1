@@ -123,3 +123,8 @@
 		background-color: #707e67;
 	}
 }
+@media screen and (max-width: 1280px) {
+	.btn-primary {
+		padding: 0px 50px;
+	}
+}

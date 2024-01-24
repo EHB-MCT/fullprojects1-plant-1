@@ -51,7 +51,7 @@ nav a {
 	font-style: normal;
 }
 .nav-image {
-	width: 100vw;
+	width: 100.4vw;
 	z-index: -1;
 	position: absolute;
 	margin-top: -0.2vw;
@@ -63,5 +63,16 @@ nav a {
 	}
 	nav ul {
 		margin-top: 10px;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.nav-image {
+		width: 112vw;
+	}
+	.header {
+		width: 500vw;
+	}
+	nav {
+		padding: 0vw 1.5vw 0vw 37.5vw;
 	}
 }
