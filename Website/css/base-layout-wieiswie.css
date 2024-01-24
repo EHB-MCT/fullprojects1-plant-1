@@ -1,5 +1,13 @@
 /* BASE LAYOUT FLEXBOX */
 
+html {
+	font-size: 100%; /* Set the base font size to 100% (16px on a typical browser) */
+}
+
+p {
+	font-size: 1rem; /* 1 times the root font size */
+}
+
 body {
 	margin: 0px;
 	background-color: #707e67;
@@ -13,7 +21,7 @@ h1 {
 	padding-left: 2%;
 }
 h2 {
-	font-size: 400%;
+	font-size: 3.8rem;
 }
 p {
 	margin-bottom: 0;
@@ -70,6 +78,9 @@ h6 {
 }
 a p:hover {
 	color: #da593c;
+}
+.div-contact p {
+	font-size: 20px;
 }
 
 /*
