@@ -34,13 +34,13 @@ svg {
 }
 .empathie-image {
 	padding-left: 100px;
-	text-align: center;
+	padding-top: 100px;
 }
 .empathie-image img {
-	width: 500px;
+	width: 800px;
 }
 .empathie-text {
-	padding-right: 200px;
+	padding-left: 250px;
 }
 .wetenschap {
 	display: flex;
@@ -50,38 +50,36 @@ svg {
 .wetenschap div {
 	flex: 1;
 }
-.wetenschap-image {
-	text-align: center;
-	padding-right: 150px;
+
+.wetenschap-image img {
+	width: 750px;
 }
 .wetenschap-text {
-	margin-bottom: 150px;
-	padding-right: 100px;
-	margin-left: 200px;
+	padding-right: 250px;
+	margin-left: 100px;
 }
 
 .filosofie {
 	display: flex;
-	padding-top: 50px;
-	align-items: center;
+	margin-top: 130px;
 }
 .filosofie div {
 	flex: 1;
 }
 .filosofie-image {
 	padding-left: 100px;
-	text-align: center;
+	padding-top: 100px;
 }
 .filosofie-image img {
-	width: 500px;
+	width: 700px;
 }
 .filosofie-text {
-	padding-right: 200px;
+	padding-left: 250px;
 }
 .duurzaamheid {
 	display: flex;
-	padding-top: 300px;
-	padding-bottom: 300px;
+	padding-top: 120px;
+
 	align-items: center;
 }
 .duurzaamheid div {
@@ -89,26 +87,26 @@ svg {
 }
 
 .duurzaamheid-image img {
-	width: 650px;
+	width: 750px;
 	padding-top: 100px;
+	padding-right: 100px;
 }
 .duurzaamheid-text {
-	padding-right: 150px;
+	padding-right: 250px;
 }
 .tuinieren {
 	display: flex;
-	padding-top: 100px;
-	align-items: center;
+	margin-top: 150px;
+	margin-bottom: 50px;
 }
 .tuinieren div {
 	flex: 1;
 }
-.tuinieren-image {
-	text-align: center;
-	padding-right: 150px;
+
+.tuinieren-image img {
+	width: 700px;
 }
 .tuinieren-text {
-	margin-bottom: 150px;
 	padding-right: 100px;
-	margin-left: 200px;
+	margin-left: 250px;
 }
