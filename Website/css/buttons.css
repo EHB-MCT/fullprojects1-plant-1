@@ -15,6 +15,7 @@
 	animation-name: greenisch;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
+	margin-top: 50px;
 }
 .btn-primary:hover {
 	background-color: #707e67;
