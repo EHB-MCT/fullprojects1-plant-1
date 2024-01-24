@@ -76,6 +76,28 @@
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 }
+.btn-tertiare {
+	color: #707e67;
+	padding: 5px 5px;
+	border-color: white;
+	border-width: 2px;
+	border-radius: 15px;
+	text-decoration: none;
+	border-style: solid;
+	background-color: transparent;
+	text-align: center;
+	margin-right: 65%;
+}
+.btn-tertiare:hover {
+	background-color: #707e67;
+	color: #f8dec9;
+	border-color: #707e67;
+	transition-timing-function: 1s;
+	transition: background-color 0.5s;
+	animation-name: greenischfill;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
 @keyframes greenisch {
 	0% {
 		border-color: #707e67;

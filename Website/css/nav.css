@@ -18,9 +18,7 @@ nav {
 
 	padding: 10px 25px 0px 40px;
 }
-nav li:first-child {
-	list-style: circle;
-}
+
 nav li {
 	list-style: disc;
 	margin-bottom: 17.5px;
