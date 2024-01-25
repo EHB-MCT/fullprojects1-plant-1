@@ -71,14 +71,19 @@ nav a {
 		margin-top: 10px;
 	}
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
 	.nav-image {
-		width: 112vw;
+		width: 112.4vw;
 	}
 	.header {
 		width: 500vw;
 	}
 	nav {
 		padding: 1vw 1.5vw 0vw 37.5vw;
+	}
+}
+@media screen and (max-width: 769px) {
+	.nav-image {
+		width: 114vw;
 	}
 }
