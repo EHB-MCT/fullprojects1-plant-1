@@ -69,7 +69,7 @@ ul {
 	font-family: "omnes-pro", sans-serif;
 	color: white;
 }
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 768px) {
 	h1 {
 	}
 	h2 {
@@ -88,6 +88,6 @@ ul {
 		font-size: 3.5vw;
 	}
 	.contact {
-		font-size: 15vw;
+		font-size: 10vw;
 	}
 }
