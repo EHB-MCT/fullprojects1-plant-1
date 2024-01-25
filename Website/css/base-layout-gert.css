@@ -1,4 +1,10 @@
 /* BASE LAYOUT FLEXBOX */
+.mobileBackground {
+	display: none;
+}
+.mobile {
+	display: none;
+}
 body {
 	margin: 0px;
 	background-color: #707e67;
@@ -19,6 +25,11 @@ h1 {
 .background {
 	width: 100%;
 	padding-right: 0px;
+	z-index: -3;
+	position: absolute;
+}
+.mobileBackground {
+	width: 100%;
 	z-index: -3;
 	position: absolute;
 }
@@ -98,4 +109,158 @@ svg {
 }
 .boodschap-text {
 	text-align: left;
+}
+.mobile-container {
+	display: none;
+}
+@media screen and (max-width: 768px) {
+	.mobile-container {
+		display: block;
+	}
+	.mobile {
+		display: block;
+	}
+	.desktop {
+		display: none;
+	}
+	.background {
+		display: none;
+	}
+	.mobileBackground {
+		display: block;
+	}
+	.header {
+		display: none;
+	}
+	.ninetyWidth {
+		width: 80%;
+		flex-wrap: wrap;
+	}
+	.missie,
+	.plantbewustzijn,
+	.carriere,
+	.boodschap {
+		flex-wrap: wrap;
+	}
+
+	.missie-image img {
+		width: 80vw;
+		margin-top: 25vw;
+	}
+	.plantbewustzijn {
+		padding-top: 30vw;
+	}
+	.plantbewustzijn-text {
+		padding-left: 0vw;
+		padding-top: 0vw;
+		order: 2;
+	}
+	.plantbewustzijn-image {
+		text-align: center;
+		width: 80vw;
+	}
+	.plantbewustzijn-image img {
+		width: 80vw;
+	}
+	.carriere {
+		padding-top: 16vw;
+	}
+
+	.carriere-video {
+		text-align: center;
+		border: black solid 0.4vw;
+		padding: 15vw 35vw;
+		margin-right: 0vw;
+	}
+
+	.boodschap-image img {
+		padding-top: 5vw;
+		width: 80vw;
+	}
+	.boodschap-text {
+		order: 2;
+		text-align: left;
+	}
+	.boodschap-text {
+		order: 2;
+		text-align: left;
+	}
+	a.btn-primary {
+		text-align: center;
+	}
+	.name {
+		margin-left: auto;
+	}
+	h2 {
+		text-align: left;
+		font-size: 7vw;
+		margin: 6vw 0px 0px 0px;
+	}
+	p {
+		font-size: 4vw;
+	}
+	h6 {
+		font-size: 2vw;
+	}
+	.WIW-div1-kolom2 {
+		margin-bottom: 5vw;
+	}
+	svg {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+/* Style the navigation menu */
+.topnav {
+	overflow: hidden;
+	position: relative;
+	position: absolute;
+	width: 100%;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+	display: none;
+	background-image: url(../images/navigation-shape.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: 45vw 45vw;
+	width: 100vw;
+	height: 100vh;
+	position: static;
+}
+
+/* Style navigation menu links */
+.topnav a {
+	text-align: right;
+	color: white;
+	padding: 2vw 4vw;
+	text-decoration: none;
+	font-size: 3.5vw;
+	display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+	background-color: transparent;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+	background-color: transparent;
+	color: white;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+	background-color: transparent;
+	color: white;
+}
+.invis {
+	opacity: 0;
 }
