@@ -7,6 +7,16 @@
 	flex-direction: column;
 	justify-content: space-between;
 }
+.div-contact-mobile {
+	padding: 2% 5% 0% 5%;
+	margin-top: 0px;
+	height: 30%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	display: none;
+}
 .div-contact-formulier {
 	width: 100%;
 	padding-top: 20%;
@@ -101,5 +111,40 @@ svg {
 @media screen and (max-width: 768px) {
 	svg {
 		display: none;
+	}
+}
+@media screen and (max-width: 426px) {
+	.div-contact-mobile {
+		padding: 0vw;
+		margin-top: 0px;
+		height: 30%;
+		width: 120vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.div-contact {
+		display: none;
+	}
+	.div-contact-formulier {
+		width: 120vw;
+		padding: 0vw 0vw 0vw 10vw;
+		display: flex;
+		flex-direction: column;
+		margin-left: 0%;
+		justify-content: space-between;
+	}
+	.div-contact-formulier input {
+		width: 95vw;
+		height: 10vw;
+	}
+	.div-contact-formulier textarea {
+		height: 40vw;
+		width: 95vw;
+		margin-bottom: 3%;
+		color: white;
+		background-color: #7b8874;
+		border-radius: 7.5px;
+		resize: none;
 	}
 }
