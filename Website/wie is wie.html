@@ -8,13 +8,40 @@
 
 		<link rel="stylesheet" href="css/nav.css" />
 		<link rel="stylesheet" href="css/typo.css" />
-		<link rel="stylesheet" href="css/base-layout-wieiswie.css" />
 		<link rel="stylesheet" href="css/buttons.css" />
 		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/base-layout-wieiswie.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
 	</head>
 	<body>
 		<img class="background" src="images/BG-WIW.png" alt="" />
 		<img class="mobileBackground" src="images/MobileWIWBackground.png" alt="" />
+
+		<!-- Simulate a smartphone / tablet -->
+		<div class="mobile-container">
+			<!-- Top Navigation Menu -->
+			<div class="topnav">
+				<a href="#home" class="active invis">Logo</a>
+				<div id="myLinks">
+					<a href="index.html" class="navigation-button">HOME</a>
+					<a href="doelstellingen.html" class="navigation-button"
+						>DOELSTELLINGEN</a
+					>
+					<a href="wie is wie.html" class="activepage">WIE IS WIE</a>
+					<a href="Gert Ausloos.html" class="navigation-button">GERT AUSLOOS</a>
+					<a href="blog.html" class="navigation-button">BLOG</a>
+				</div>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+
+			<!-- End smartphone / tablet look -->
+		</div>
+
 		<div class="header">
 			<img class="nav-image" src="images/NavigationWieIsWie.png" alt="" />
 			<h1>WIE IS WIE</h1>
@@ -372,5 +399,16 @@
 				</div>
 			</div>
 		</div>
+
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myLinks");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+				} else {
+					x.style.display = "block";
+				}
+			}
+		</script>
 	</body>
 </html>
