@@ -71,41 +71,31 @@ svg {
 }
 .carriere {
 	display: flex;
-	padding-top: 7vw;
+	padding-top: 8vw;
 	align-items: center;
 }
 
 .carriere-video {
 	text-align: center;
 	border: black solid 0.4vw;
-	flex: 60%;
-	margin-right: 150px;
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding: 14vw 22vw;
+	margin-right: 10vw;
 }
 .carriere-text {
-	margin-bottom: 150px;
-	padding-left: 150px;
-	padding-right: 150px;
-	flex: 40%;
+	text-align: left;
 }
 .boodschap {
+	justify-content: space-between;
 	display: flex;
-	padding-top: 300px;
-	padding-bottom: 300px;
+	padding-top: 19vw;
+	padding-bottom: 10vw;
 	align-items: center;
-}
-.boodschap div {
-	flex: 1;
 }
 
 .boodschap-image img {
-	width: 650px;
-	padding-top: 100px;
+	padding-top: 7vw;
+	width: 50vw;
 }
 .boodschap-text {
-	padding-right: 150px;
-}
-.boodschap-text p {
-	margin-bottom: 100px;
+	text-align: left;
 }
