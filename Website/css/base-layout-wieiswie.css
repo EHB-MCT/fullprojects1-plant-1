@@ -2,6 +2,9 @@
 .mobileBackground {
 	display: none;
 }
+.nav-image {
+	width: 100%;
+}
 body {
 	margin: 0px;
 	background-color: #707e67;
@@ -28,10 +31,10 @@ h6 {
 	font-weight: 400;
 	font-style: normal;
 	font-size: 1.5vw;
-	margin: 1vh 0vh;
+	margin: 0.1vw 0vh;
 }
 .ghost-image {
-	height: 50vh;
+	height: 38vw;
 }
 .WIW-div1 {
 	margin: 0 auto 6% auto;
@@ -80,7 +83,9 @@ a p:hover {
 .div-contact p {
 	font-size: 20px;
 }
-
+.bottom-div {
+	padding-bottom: 2.4vw;
+}
 @media screen and (max-width: 480px) {
 	.background {
 		display: none;
@@ -117,15 +122,18 @@ a p:hover {
 	h2 {
 		text-align: left;
 		font-size: 7vw;
-		margin: 3vw 0px 0px 0px;
+		margin: 5vw 0px 0px 0px;
 	}
 	p {
-		margin-top: 4.2vw;
+		margin-top: 2vw;
 		text-align: right;
 		font-size: 6vw;
 	}
 	h6 {
 		font-size: 4vw;
-		margin: 1vw 0vh;
+		margin-bottom: 5vw;
+	}
+	.WIW-div1-kolom2 {
+		margin-bottom: 5vw;
 	}
 }
