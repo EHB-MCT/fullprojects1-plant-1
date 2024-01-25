@@ -202,3 +202,6 @@ a p:hover {
 .invis {
 	opacity: 0;
 }
+nav li:nth-child(3)::marker {
+	color: #486d48;
+}

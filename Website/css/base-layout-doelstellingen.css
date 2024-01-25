@@ -131,7 +131,7 @@
 		flex-direction: column;
 		padding-top: 20vw;
 		justify-content: space-between;
-		height: 125vw;
+		height: 130vw;
 		margin-bottom: 27.5vw;
 	}
 	.empathie-image {
@@ -149,7 +149,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		height: 125vw;
+		height: 130vw;
 		margin-bottom: 27.5vw;
 	}
 	.wetenschap-image {
@@ -219,4 +219,7 @@
 		padding-left: 10vw;
 		width: 80%;
 	}
+}
+nav li:nth-child(2)::marker {
+	color: #486d48;
 }
