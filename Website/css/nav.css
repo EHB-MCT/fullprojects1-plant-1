@@ -26,10 +26,17 @@ nav li {
 	margin-bottom: 1.25vw;
 	font-size: 1.5vw;
 }
+nav li::marker {
+	color: white;
+}
 .activepage {
 	color: #486d48;
 	text-decoration: underline;
 }
+.activepage::marker {
+	color: #486d48;
+}
+
 .navigation-button {
 	color: white;
 }
@@ -38,11 +45,12 @@ nav li {
 	text-decoration-thickness: 5px;
 	text-decoration: underline;
 }
-
 nav li::marker {
 	color: white;
 }
-
+nav li:first-child::marker {
+	color: #707e67;
+}
 nav a {
 	font-family: "omnes-pro", sans-serif;
 	font-weight: 300;
