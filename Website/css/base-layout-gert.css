@@ -6,6 +6,11 @@ body {
 .header {
 	padding: 0px;
 }
+.ninetyWidth {
+	margin: 0 auto 6% auto;
+	text-align: center;
+	width: 90%;
+}
 h1 {
 	padding-top: 1%;
 	padding-left: 2%;
@@ -13,7 +18,6 @@ h1 {
 
 .background {
 	width: 100%;
-
 	padding-right: 0px;
 	z-index: -3;
 	position: absolute;
@@ -24,28 +28,29 @@ svg {
 	z-index: -2;
 	position: absolute;
 }
+.nav-image {
+	width: 100%;
+}
 
 .missie {
 	display: flex;
-	padding-top: 50px;
+	padding-top: 0vw;
 	align-items: center;
 }
 .missie div {
 	flex: 1;
 }
 .missie-image {
-	padding-left: 100px;
 	text-align: center;
 }
 .missie-image img {
-	width: 500px;
+	width: 30vw;
 }
 .missie-text {
-	padding-right: 200px;
+	text-align: left;
 }
 .plantbewustzijn {
 	display: flex;
-	padding-top: 100px;
 	align-items: center;
 }
 .plantbewustzijn div {
@@ -53,22 +58,26 @@ svg {
 }
 .plantbewustzijn-image {
 	text-align: center;
-	padding-right: 150px;
+	width: 30vw;
+	padding-left: -10vw;
+}
+.plantbewustzijn-image img {
+	width: 31vw;
 }
 .plantbewustzijn-text {
-	margin-bottom: 150px;
-	padding-right: 100px;
-	margin-left: 200px;
+	text-align: left;
+	padding-left: 8vw;
+	padding-top: 10vw;
 }
 .carriere {
 	display: flex;
-	padding-top: 100px;
+	padding-top: 7vw;
 	align-items: center;
 }
 
 .carriere-video {
 	text-align: center;
-	border: black solid 1px;
+	border: black solid 0.4vw;
 	flex: 60%;
 	margin-right: 150px;
 	padding-top: 200px;
