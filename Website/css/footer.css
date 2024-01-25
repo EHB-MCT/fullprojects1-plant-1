@@ -146,4 +146,8 @@ svg {
 		border-radius: 7.5px;
 		resize: none;
 	}
+	.contact {
+		text-align: left;
+		padding-left: 10vw;
+	}
 }
