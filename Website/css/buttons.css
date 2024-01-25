@@ -124,8 +124,13 @@
 	}
 }
 @media screen and (max-width: 768px) {
+	.btn-primary {
+		padding: 0vw 10%;
+		margin-right: 0vw;
+		font-size: 3.5vw;
+	}
 	.btn-secondary {
-		padding: 1vw 40vw;
+		padding: 1vw 42.5%;
 		margin-right: 0vw;
 		font-size: 3.5vw;
 	}
