@@ -142,6 +142,6 @@ h1 {
 	padding-left: 0%;
 	height: 15%;
 }
-nav li:first-child::marker {
-	color: white;
+nav li:nth-child(5)::marker {
+	color: #486d48;
 }

@@ -45,7 +45,12 @@ nav li::marker {
 	text-decoration-thickness: 5px;
 	text-decoration: underline;
 }
-
+nav li::marker {
+	color: white;
+}
+nav li:first-child::marker {
+	color: #707e67;
+}
 nav a {
 	font-family: "omnes-pro", sans-serif;
 	font-weight: 300;
@@ -118,6 +123,7 @@ nav a {
 	position: absolute;
 	right: 0;
 	top: 0;
+	font-size: 6.5vw;
 }
 
 /* Add a grey background color on mouse-over */
