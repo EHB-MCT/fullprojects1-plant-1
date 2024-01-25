@@ -71,28 +71,35 @@ svg {
 	position: absolute;
 }
 @media screen and (max-width: 1536px) {
-	.home-div4-formulier {
+	.div-contact-formulier {
 		padding-top: 25%;
 	}
-	.home-div4 {
+	.div-contact {
 		padding-top: 5%;
 		padding-left: 0%;
 	}
 }
-@media screen and (max-width: 1367px) {
-	.home-div4-formulier {
+@media screen and (max-width: 1440px) {
+	.div-contact-formulier {
 		padding-top: 20%;
 	}
-	.home-div4 {
-		padding: 0%;
+	.div-contact {
+		padding-top: 0%;
 		height: 20%;
 	}
 }
-@media screen and (max-width: 1281) {
-	.home-div4-formulier {
+@media screen and (max-width: 1366px) {
+	.div-contact {
+		padding: 0%;
 	}
-	.home-div4 {
+}
+@media screen and (max-width: 1280) {
+	.div-contact {
 		padding: 15%;
-		height: 20%;
+	}
+}
+@media screen and (max-width: 768px) {
+	svg {
+		display: none;
 	}
 }

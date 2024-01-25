@@ -1,9 +1,13 @@
 /* BASE LAYOUT FLEXBOX */
-
+.mobileBackground {
+	display: none;
+}
+.nav-image {
+	width: 100%;
+}
 body {
 	margin: 0px;
 	background-color: #707e67;
-	height: 2658.6375px;
 }
 .header {
 	padding: 0px;
@@ -27,10 +31,10 @@ h6 {
 	font-weight: 400;
 	font-style: normal;
 	font-size: 1.5vw;
-	margin: 1vh 0vh;
+	margin: 0.1vw 0vh;
 }
 .ghost-image {
-	height: 70vh;
+	height: 38vw;
 }
 .WIW-div1 {
 	margin: 0 auto 6% auto;
@@ -41,7 +45,7 @@ h6 {
 .WIW-kolommen {
 	width: 100%;
 	display: flex;
-	padding-top: 5vh;
+	padding-top: 1vw;
 	justify-content: space-between;
 }
 .WIW-div1-titel {
@@ -63,6 +67,11 @@ h6 {
 	z-index: -3;
 	position: absolute;
 }
+.mobileBackground {
+	width: 100%;
+	z-index: -3;
+	position: absolute;
+}
 .footer {
 	width: 100%;
 	z-index: -1;
@@ -74,6 +83,57 @@ a p:hover {
 .div-contact p {
 	font-size: 20px;
 }
-
+.bottom-div {
+	padding-bottom: 2.4vw;
+}
 @media screen and (max-width: 480px) {
+	.background {
+		display: none;
+	}
+	.mobileBackground {
+		display: block;
+	}
+	.header {
+		display: none;
+	}
+	.ghost-image {
+		height: 90vw;
+	}
+	.WIW-div1 {
+		width: 80%;
+		flex-wrap: wrap;
+	}
+	.WIW-kolommen {
+		flex-wrap: wrap;
+		text-align: right;
+	}
+
+	.WIW-div1-titel {
+		width: 100%;
+	}
+	.WIW-div1-kolom1,
+	.WIW-div1-kolom2 {
+		margin-left: auto;
+		width: 100%;
+	}
+	.name {
+		margin-left: auto;
+	}
+	h2 {
+		text-align: left;
+		font-size: 7vw;
+		margin: 5vw 0px 0px 0px;
+	}
+	p {
+		margin-top: 2vw;
+		text-align: right;
+		font-size: 6vw;
+	}
+	h6 {
+		font-size: 4vw;
+		margin-bottom: 5vw;
+	}
+	.WIW-div1-kolom2 {
+		margin-bottom: 5vw;
+	}
 }
