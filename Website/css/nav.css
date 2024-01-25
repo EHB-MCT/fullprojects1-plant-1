@@ -48,9 +48,6 @@ nav li::marker {
 nav li::marker {
 	color: white;
 }
-nav li:first-child::marker {
-	color: #707e67;
-}
 nav a {
 	font-family: "omnes-pro", sans-serif;
 	font-weight: 300;
