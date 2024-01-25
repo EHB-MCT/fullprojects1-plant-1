@@ -31,6 +31,7 @@
 		padding-top: 5vw;
 		align-items: center;
 		justify-content: space-around;
+		height: 30vw;
 	}
 	.empathie-image {
 		width: 40vw;
@@ -62,6 +63,7 @@
 	.filosofie {
 		display: flex;
 		justify-content: space-between;
+		height: 40vw;
 	}
 
 	.filosofie-image {
@@ -77,9 +79,9 @@
 	}
 	.duurzaamheid {
 		display: flex;
-		padding-top: 7.5vw;
 		align-items: center;
 		justify-content: space-between;
+		height: 47.5vw;
 	}
 	.duurzaamheid-image {
 		width: 50%;
@@ -94,8 +96,8 @@
 	.tuinieren {
 		display: flex;
 		justify-content: space-between;
-		margin-top: 10vw;
 		height: 37.5vw;
+		padding-top: 2.5vw;
 	}
 	.tuinieren-image {
 		width: 40%;
@@ -131,7 +133,7 @@
 		flex-direction: column;
 		padding-top: 20vw;
 		justify-content: space-between;
-		height: 130vw;
+		height: 125vw;
 		margin-bottom: 27.5vw;
 	}
 	.empathie-image {
@@ -149,7 +151,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		height: 130vw;
+		height: 125vw;
 		margin-bottom: 27.5vw;
 	}
 	.wetenschap-image {
@@ -220,6 +222,6 @@
 		width: 80%;
 	}
 }
-nav li:nth-child(2)::marker {
+nav li:nth-child()::marker {
 	color: #486d48;
 }
