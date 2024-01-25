@@ -183,8 +183,8 @@
 	}
 	.home-div1-text {
 		width: 80%;
-		padding-left: 15vw;
-		padding-top: 15vw;
+		padding-left: 10%;
+		padding-top: 20vw;
 	}
 	.home-div1-image {
 		width: 90%;
@@ -206,8 +206,8 @@
 		margin-bottom: 25vw;
 	}
 	.home-div2-text {
-		width: 90%;
-		padding-left: 10vw;
+		width: 80%;
+		padding-left: 10%;
 		padding-top: 10vw;
 	}
 	.home-div2-text li {
@@ -230,7 +230,7 @@
 	}
 	.home-div3-text {
 		width: 80%;
-		padding-left: 10vw;
+		padding-left: 10%;
 		padding-top: 10vw;
 	}
 	.home-div3-text li {
