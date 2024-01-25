@@ -145,6 +145,3 @@ h1 {
 nav li:first-child::marker {
 	color: white;
 }
-nav li:last-child::marker {
-	color: #707e67;
-}
