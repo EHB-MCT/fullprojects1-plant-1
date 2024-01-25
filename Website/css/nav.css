@@ -75,6 +75,10 @@ nav a {
 	.mobile-container {
 		display: flex;
 	}
+	h1 {
+		font-size: 10vw;
+		position: absolute;
+	}
 }
 /* Style the navigation menu */
 .topnav {
@@ -93,7 +97,7 @@ nav a {
 	background-size: 45vw 45vw;
 	width: 100vw;
 	height: 100vh;
-	position: static;
+	position: relative;
 }
 
 /* Style navigation menu links */
