@@ -25,6 +25,14 @@ h3 {
 	font-size: 30px;
 	font-weight: 800;
 }
+h4 {
+	font-family: "omnes-pro", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: white;
+	font-size: 5vw;
+	margin-bottom: 0.5vw;
+}
 
 p {
 	font-family: "omnes-pro", sans-serif;
@@ -59,4 +67,27 @@ ul {
 	font-weight: 600;
 	font-style: normal;
 	font-family: "omnes-pro", sans-serif;
+	color: white;
+}
+@media screen and (max-width: 426px) {
+	h1 {
+	}
+	h2 {
+		font-size: 7.5vw;
+	}
+	h3 {
+		font-size: vw;
+	}
+	p {
+		font-size: 3.5vw;
+	}
+	a {
+		font-size: vw;
+	}
+	li {
+		font-size: 3.5vw;
+	}
+	.contact {
+		font-size: 15vw;
+	}
 }
