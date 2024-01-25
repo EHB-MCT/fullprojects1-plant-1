@@ -170,25 +170,28 @@
 }
 /*mobile responsive version*/
 @media screen and (max-width: 426px) {
+	body {
+		width: 195vw;
+	}
 	.home-div1 {
 		padding: 0vw;
-		width: 117.5vw;
-		height: 175vw;
+		width: 195vw;
+		height: 300vw;
 		flex-direction: column;
 		justify-content: space-between;
 		margin-bottom: 20vw;
 	}
 	.home-div1-text {
-		width: 100vw;
+		width: 195vw;
 		padding-left: 10vw;
 		padding-top: 10vw;
 	}
 	.home-div1-image {
-		width: 100vw;
+		width: 195vw;
 		padding: 0vw;
 	}
 	.home-div1-image img {
-		width: 120vw;
+		width: 195vw;
 	}
 	.home-div2 {
 		display: none;
@@ -198,12 +201,12 @@
 		display: flex;
 		flex-direction: column;
 		height: 175vw;
-		width: 117.5vw;
+		width: 195vw;
 		justify-content: space-between;
 		margin-bottom: 25vw;
 	}
 	.home-div2-text {
-		width: 100vw;
+		width: 195vw;
 		padding-left: 10vw;
 		padding-top: 10vw;
 	}
@@ -211,7 +214,7 @@
 		margin-bottom: 3.5vw;
 	}
 	.home-div2-image img {
-		width: 120vw;
+		width: 195vw;
 	}
 	.home-div2-image {
 		padding: 0vw;
@@ -220,12 +223,12 @@
 		padding: 0vw;
 		height: 165vw;
 		margin-bottom: 25vw;
-		width: 117.5vw;
+		width: 195vw;
 		flex-direction: column;
 		justify-content: space-between;
 	}
 	.home-div3-text {
-		width: 100vw;
+		width: 195vw;
 		padding-left: 10vw;
 		padding-top: 10vw;
 	}
@@ -233,7 +236,7 @@
 		margin-bottom: 4vw;
 	}
 	.home-div3-image img {
-		width: 120vw;
+		width: 195vw;
 	}
 	.home-div3-image {
 		padding: 0vw;
@@ -247,7 +250,7 @@
 	}
 	.background-mobile {
 		display: flex;
-		width: 117.25vw;
+		width: 205vw;
 	}
 	svg {
 		height: 27.5vw;

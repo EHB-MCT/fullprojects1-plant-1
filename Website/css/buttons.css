@@ -126,5 +126,6 @@
 @media screen and (max-width: 426px) {
 	.btn-secondary {
 		padding: 1vw 40vw;
+		margin-right: 0vw;
 	}
 }
