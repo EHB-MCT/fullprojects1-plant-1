@@ -51,28 +51,77 @@ nav a {
 	font-style: normal;
 }
 .nav-image {
-	width: 100%;
+	width: 100.3%;
 	z-index: -1;
 	position: absolute;
 	margin-top: -0.2vw;
 	margin-left: -0.2vw;
 }
-@media screen and (max-width: 1080px) {
+.mobile-container {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.header {
+		display: none;
+	}
 	.nav-image {
-		width: 112.4vw;
+		display: none;
+	}
+	.mobile-container {
+		display: flex;
 	}
 }
-@media screen and (max-width: 768px) {
-	.nav-image {
-		width: 100.4%;
-	}
-	nav {
-		padding-right: 0%;
-		padding-left: 0%;
-		width: 100%;
-	}
-	nav ul {
-		padding-right: 6.5vw;
-		margin-top: 1.5vw;
-	}
+/* Style the navigation menu */
+.topnav {
+	overflow: hidden;
+	position: relative;
+	position: absolute;
+	width: 100%;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+	display: none;
+	background-image: url(../images/navigation-shape.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: 45vw 45vw;
+	width: 100vw;
+	height: 100vh;
+	position: static;
+}
+
+/* Style navigation menu links */
+.topnav a {
+	text-align: right;
+	color: white;
+	padding: 2vw 4vw;
+	text-decoration: none;
+	font-size: 3.5vw;
+	display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+	background-color: transparent;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+	background-color: transparent;
+	color: white;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+	background-color: transparent;
+	color: white;
+}
+.invis {
+	opacity: 0;
 }
