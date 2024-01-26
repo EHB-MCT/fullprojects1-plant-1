@@ -82,11 +82,6 @@
 		z-index: -3;
 		position: absolute;
 	}
-	.footer {
-		width: 100%;
-		z-index: -1;
-		position: absolute;
-	}
 	svg {
 		height: 27.5vw;
 		z-index: -2;
