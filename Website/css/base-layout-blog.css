@@ -12,19 +12,16 @@ h1 {
 	padding-left: 2%;
 }
 .blog-div1 {
-	padding: 0% 5% 5% 10%;
-	height: 18%;
 	display: flex;
-	justify-content: space-between;
 }
 .blog-div1-text {
-	width: 40%;
+	padding-left: 10vw;
+	width: 35vw;
 }
 .blog-div1-image {
-	width: 40%;
-	padding-top: 1%;
-	padding-right: 5%;
-	align-items: right;
+	width: 45vw;
+	margin-left: 6.4vw;
+	margin-top: 6vw;
 	z-index: -2;
 }
 .blog-div1-image img {
