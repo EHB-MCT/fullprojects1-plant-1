@@ -8,19 +8,12 @@
 	justify-content: space-between;
 }
 .div-contact-mobile {
-	padding: 2% 5% 0% 5%;
-	margin-top: 0px;
-	height: 30%;
-	width: 75%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
 	display: none;
 }
 .div-contact-formulier {
-	width: 95%;
+	width: 100%;
 	display: flex;
-	margin-left: 4.5%;
+	padding-left: 0.75vw;
 }
 .div-contact-formulier ul {
 	margin-top: 0%;
@@ -31,27 +24,29 @@
 	border-radius: 7.5px;
 	border: none;
 	height: 7.5%;
-	width: 100%;
+	width: 27.5vw;
 }
 .formulier-info {
 	padding-left: 1%;
 }
 .formulier-info li {
 	text-align: right;
-	margin-bottom: 100%;
+	margin-bottom: 8vw;
 	color: white;
 }
+
 .formulier-info-input ul {
 	width: 100%;
 }
 .formulier-info-input li {
-	margin-bottom: 22%;
+	margin-bottom: 7.5vw;
 	color: white;
 }
 .formulier-info-input {
-	width: 27.5%;
-	padding-left: 2.5%;
+	width: 35%;
+	margin-left: 1.75%;
 }
+
 .formulier-info2 label {
 	color: white;
 	text-align: right;
@@ -60,10 +55,9 @@
 	font-style: normal;
 	list-style: none;
 	font-size: 1.25vw;
-	padding-left: 100%;
 }
 .formulier-info-input2 {
-	width: 42.5%;
+	width: 45vw;
 	display: flex;
 	flex-direction: column;
 	font-family: "omnes-pro", sans-serif;
@@ -71,16 +65,20 @@
 	font-style: normal;
 	list-style: none;
 	font-size: 1.25vw;
-	padding-left: 7.5%;
+	margin-left: 2vw;
 }
 .formulier-info-input2 textarea {
 	height: 60%;
-	width: 87.5%;
+	width: 94%;
 	margin-bottom: 3%;
 	color: white;
 	background-color: #7b8874;
 	border-radius: 5px;
 	resize: none;
+	color: white;
+	font-family: "omnes-pro", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 .formulier-info-input2 input {
 	color: white;
@@ -90,23 +88,16 @@
 	height: 7.5%;
 	width: 90%;
 }
-.footer {
-	width: 100%;
-	z-index: -1;
-	position: absolute;
-}
-
-svg {
-	height: 400px;
-	z-index: -2;
-	position: absolute;
+.contact {
+	margin-bottom: 5vw;
+	margin-left: 1.25vw;
 }
 @media screen and (max-width: 768px) {
 	.div-contact-mobile {
-		padding: 0vw;
+		padding: 0vw 10vw 30vw 10vw;
 		margin-top: 0px;
-		height: 30%;
-		width: 100%;
+		height: 150vw;
+		width: 80vw;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -114,33 +105,54 @@ svg {
 	.div-contact {
 		display: none;
 	}
-	.formulier-info-input1 {
-		width: 100%;
-		align-content: center;
-	}
 	.div-contact-formulier {
-		width: 80%;
-		padding: 0vw 0vw 0vw 10vw;
+		display: flex;
+		margin-left: 0%;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100%;
+		color: white;
+		text-align: left;
+		font-family: "omnes-pro", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		list-style: none;
+		font-size: 5vw;
+	}
+	.formulier-info-input1 {
 		display: flex;
 		flex-direction: column;
-		margin-left: 0%;
+		margin-bottom: 5vw;
+	}
+	.formulier-info1 {
+		display: flex;
+		flex-direction: column;
 		justify-content: space-between;
+		margin-bottom: 5vw;
+	}
+	.formulier-info4 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-bottom: 5vw;
+	}
+	.formulier-info3 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-bottom: 5vw;
 	}
 	.div-contact-formulier input {
+		height: 5vw;
 		width: 100%;
-		height: 7.5vw;
 	}
-	.div-contact-formulier textarea {
-		height: 30vw;
+	.formulier-info-input1 textarea {
+		height: 50vw;
 		width: 100%;
 		margin-bottom: 3%;
 		color: white;
 		background-color: #7b8874;
-		border-radius: 7.5px;
+		border-radius: 5px;
 		resize: none;
-	}
-	.contact {
-		text-align: left;
-		padding-left: 10vw;
 	}
 }

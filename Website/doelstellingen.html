@@ -24,7 +24,7 @@
 	<body>
 		<img
 			class="background"
-			src="images/DoelstellingenBackground.png"
+			src="images/BG-doelstellingen.png"
 			alt="achtergrondfoto"
 		/>
 		<img
@@ -236,25 +236,24 @@
 			<p class="contact">Contact</p>
 			<div class="div-contact-formulier">
 				<div class="formulier-info1">
-					<h4>naam</h4>
-					<input type="text" />
+					<label for="familyname">Naam</label>
+					<input type="text" id="familyname" name="familyname" required />
 				</div>
-				<div class="formulier-info2">
-					<h4>voornaam</h4>
-					<input type="text" />
+				<div class="formulier-info4">
+					<label for="name">Voornaam</label>
+					<input type="text" id="name" name="name" required />
 				</div>
 				<div class="formulier-info3">
-					<h4>email</h4>
-					<input type="text" />
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" required />
 				</div>
 				<div class="formulier-info-input1">
-					<h4>bericht</h4>
-					<textarea name="userInput" id="" cols="30" rows="10"></textarea>
-					<a href="#" class="btn-secondary">verzend</a>
+					<label for="message">Bericht</label>
+					<textarea id="message" name="message" required></textarea>
+					<input type="submit" value="Submit" />
 				</div>
 			</div>
 		</div>
-
 		<script>
 			function myFunction() {
 				var x = document.getElementById("myLinks");
