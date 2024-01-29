@@ -10,27 +10,36 @@
 		<link rel="stylesheet" href="css/typo.css" />
 		<link rel="stylesheet" href="css/buttons.css" />
 		<link rel="stylesheet" href="css/base-layout-blog.css" />
-		<script src="css/blog.js" type="module"></script>
+
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 		/>
 	</head>
 	<body>
-		<img id="background" src="images/BG-blog.png" alt="" class="visible" />
-		<img
-			id="text-background1"
-			src="images/BG-blog-extend.png"
-			alt=""
-			class="hidden"
-		/>
-		<img
-			id="background2"
-			src="images/BG-blog-extend2.png"
-			alt=""
-			class="hidden2"
-		/>
+		<img class="background" src="images/BG-blog.png" alt="" class="visible" />
 		<!-- Simulate a smartphone / tablet -->
+		<div class="mobile-container">
+			<h1>PlantAwareness</h1>
+			<!-- Top Navigation Menu -->
+			<div class="topnav">
+				<a href="#home" class="active invis">Logo</a>
+				<div id="myLinks">
+					<a href="index.html" class="navigation-button">HOME</a>
+					<a href="doelstellingen.html" class="navigation-button"
+						>DOELSTELLINGEN</a
+					>
+					<a href="wie is wie.html" class="activepage">WIE IS WIE</a>
+					<a href="Gert Ausloos.html" class="navigation-button">GERT AUSLOOS</a>
+					<a href="#" class="navigation-button">BLOG</a>
+				</div>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+
+			<!-- End smartphone / tablet look -->
+		</div>
 		<div class="mobile-container">
 			<!-- Top Navigation Menu -->
 			<div class="topnav">
@@ -93,7 +102,8 @@
 					2. We nodigen een auteur uit en bespreken samen zijn of haar boek.
 					<br />
 					<br />
-					3. We spreken af bij iemands tuin.
+					3. We gaan op bezoek bij elkaar en bekijken hoe zij planten
+					positioneren, meestal in botanische parken.
 				</p>
 				<a href="Gert Ausloos.html" class="btn-primary">Wie is Gert Ausloos</a>
 			</div>
@@ -101,15 +111,18 @@
 				<img src="images/blog-1.png" alt="" />
 			</div>
 		</div>
-		<div class="blog-div2" id="div2">
+		<div class="blog-div2">
 			<div class="blog-div2-image">
 				<h2>voorbije bijeenkomsten</h2>
-				<img src="" alt="" />
 			</div>
 			<div class="blog-div2-text">
-				<h3>Wie veredelt wie?</h3>
-				<div id="myText1" class="visible">
-					<p>
+				<div class="blog-div2-datum">
+					<img src="images/blog-2.png" alt="" />
+					<p>4 april 2024</p>
+				</div>
+				<div class="blog-div2-verslag">
+					<h3>Wie veredelt wie?</h3>
+					<p class="blog-div2-verslag-text">
 						Quentin Hiernaux zal gastspreker zijn op deze bijeenkomst. Aan de
 						hand van zijn presentatie gaat hij in opeen aantal thema's uit zijn
 						boek From plant behaviour to plant intelligence? De methode van zaa
@@ -163,26 +176,23 @@
 						le en doelgerichte veredelingsmethoden (genetische modificatie en
 						radioactieve bestraling). Hun effecten of .7'JrÄ
 					</p>
+					<a href="#" class="btn-primary">Download het verslag</a>
+					<a href="#" class="btn-primary">bijkomende verslagen</a>
 				</div>
-			</div>
-			<div class="blog-text-button">
-				<button id="myButtonMore" class="btn-tertiare" class="hidden">
-					<img src="images/arrow.png" alt="" />
-				</button>
-				<button id="myButtonLess" class="btn-tertiare" class="hidden">
-					Show less
-				</button>
 			</div>
 		</div>
-		<div class="blog-div3" id="div3">
+		<div class="blog-div3">
 			<div class="blog-div3-image">
 				<h2>voorbije bijeenkomsten</h2>
-				<img src="" alt="" />
 			</div>
 			<div class="blog-div3-text">
-				<h3>Wie veredelt wie?</h3>
-				<div id="text2" class="visible2">
-					<p>
+				<div class="blog-div3-datum">
+					<img src="images/blog-2.png" alt="" />
+					<p>4 april 2024</p>
+				</div>
+				<div class="blog-div3-verslag">
+					<h3>Wie veredelt wie?</h3>
+					<p class="blog-div3-verslag-text">
 						Quentin Hiernaux zal gastspreker zijn op deze bijeenkomst. Aan de
 						hand van zijn presentatie gaat hij in opeen aantal thema's uit zijn
 						boek From plant behaviour to plant intelligence? De methode van zaa
@@ -236,16 +246,14 @@
 						le en doelgerichte veredelingsmethoden (genetische modificatie en
 						radioactieve bestraling). Hun effecten of .7'JrÄ
 					</p>
+					<a href="#" class="btn-primary">Download het verslag</a>
+					<a href="#" class="btn-primary">bijkomende verslagen</a>
 				</div>
 			</div>
-			<div class="blog-text-button2">
-				<button id="more2" class="btn-tertiare" class="hidden2">
-					<img src="images/arrow.png" alt="" />
-				</button>
-				<button id="less2" class="btn-tertiare" class="hidden2">
-					Show less
-				</button>
-			</div>
+			<a href="#" class="blog-button"
+				>Abboneer op <br />
+				onze blog</a
+			>
 		</div>
 		<div class="blog-div4">
 			<div class="blog-div4-title">
@@ -328,6 +336,28 @@
 					<p>bericht</p>
 				</div>
 				<div class="formulier-info-input2">
+					<textarea name="userInput" id="" cols="30" rows="10"></textarea>
+					<a href="#" class="btn-secondary">verzend</a>
+				</div>
+			</div>
+		</div>
+		<div class="div-contact-mobile">
+			<p class="contact">Contact</p>
+			<div class="div-contact-formulier">
+				<div class="formulier-info1">
+					<h4>naam</h4>
+					<input type="text" />
+				</div>
+				<div class="formulier-info2">
+					<h4>voornaam</h4>
+					<input type="text" />
+				</div>
+				<div class="formulier-info3">
+					<h4>email</h4>
+					<input type="text" />
+				</div>
+				<div class="formulier-info-input1">
+					<h4>bericht</h4>
 					<textarea name="userInput" id="" cols="30" rows="10"></textarea>
 					<a href="#" class="btn-secondary">verzend</a>
 				</div>
