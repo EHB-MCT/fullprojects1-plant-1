@@ -6,7 +6,7 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 
 // Send the email
-$to = 'seppe.ghekiere@student.ehb.be';
+$to = 'youremail@gmail.com';
 $subject = 'New contact form submission';
 $headers = 'From: ' . $email;
 $body = "Name:$familyname $name\nEmail: $email\nMessage:\n$message";
