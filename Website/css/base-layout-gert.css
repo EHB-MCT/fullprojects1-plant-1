@@ -119,27 +119,29 @@ svg {
 	.header {
 		display: none;
 	}
-	.ninetyWidth {
-		width: 80%;
-		flex-wrap: wrap;
-	}
+
 	.missie,
 	.plantbewustzijn,
 	.carriere,
 	.boodschap {
 		flex-wrap: wrap;
 	}
+	.missie-text,
+	.plantbewustzijn-text,
+	.boodschap-text {
+		padding: 0vw 10vw;
+		width: 80vw;
+	}
 
 	.missie-image img {
-		width: 80vw;
-		margin-top: 25vw;
+		width: 100vw;
+		margin-top: 27vw;
+		padding-left: 0vw;
 	}
 	.plantbewustzijn {
-		padding-top: 30vw;
+		padding-top: 15vw;
 	}
 	.plantbewustzijn-text {
-		padding-left: 0vw;
-		padding-top: 0vw;
 		order: 2;
 	}
 	.plantbewustzijn-image {
@@ -147,12 +149,14 @@ svg {
 		width: 80vw;
 	}
 	.plantbewustzijn-image img {
-		width: 80vw;
+		width: 100vw;
+		padding-right: 0vw;
+		padding-left: 0vw;
 	}
 
 	.boodschap-image img {
 		padding-top: 5vw;
-		width: 80vw;
+		width: 100vw;
 	}
 	.boodschap-text {
 		order: 2;
