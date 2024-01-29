@@ -1,89 +1,89 @@
 /* BASE LAYOUT FLEXBOX */
 /*desktop responsive version*/
-@media screen and (max-width: 1920px) {
-	body {
-		margin: 0vw;
-		background-color: #707e67;
-		width: 100%;
-	}
-	.home-div1 {
-		padding: 5vw 0vw;
-		height: 40vw;
-		display: flex;
-		justify-content: space-between;
-	}
-	.home-div1-text {
-		width: 50vw;
-		padding-left: 13.65vw;
-	}
-	.home-div1-image {
-		width: 50vw;
-		padding-top: 2vw;
-		padding-left: 10vw;
-		align-items: right;
-		z-index: -2;
-	}
-	.home-div1-image img {
-		width: 49.28vw;
-	}
-	.home-div2 {
-		padding: 2vw 0vw 5vw 0vw;
-		display: flex;
-		height: 37.5vw;
-		justify-content: space-between;
-	}
-	.home-div2-text {
-		width: 40vw;
-		padding-right: 2vw;
-		padding-top: 5vw;
-	}
-	.home-div2-text li {
-		margin-bottom: 1.5vw;
-	}
-	.home-div2-image img {
-		width: 49.5vw;
-	}
 
-	.home-div3 {
-		padding: 2vw 0vw 1.25vw 0vw;
-		height: 39.5vw;
-		display: flex;
-		justify-content: space-between;
-	}
-	.home-div3-text {
-		width: 40vw;
-		padding-top: 5vw;
-		padding-left: 13.8vw;
-	}
-	.home-div3-text li {
-		margin-bottom: 1.75vw;
-	}
-	.home-div3-image img {
-		width: 49.2vw;
-	}
-	.home-div3-image {
-		padding: 5vw 0vw 0vw 5vw;
-	}
-
-	.background {
-		width: 100.2%;
-		z-index: -3;
-		position: absolute;
-	}
-	.grid {
-		width: 100vw;
-		z-index: 5;
-		position: absolute;
-	}
-	.background-mobile {
-		display: none;
-	}
-	svg {
-		height: 27.5vw;
-		z-index: -2;
-		position: absolute;
-	}
+body {
+	margin: 0vw;
+	background-color: #707e67;
+	width: 100%;
 }
+.home-div1 {
+	padding: 5vw 0vw;
+	height: 40vw;
+	display: flex;
+	justify-content: space-between;
+}
+.home-div1-text {
+	width: 50vw;
+	padding-left: 13.65vw;
+}
+.home-div1-image {
+	width: 50vw;
+	padding-top: 2vw;
+	padding-left: 10vw;
+	align-items: right;
+	z-index: -2;
+}
+.home-div1-image img {
+	width: 49.28vw;
+}
+.home-div2 {
+	padding: 2vw 0vw 5vw 0vw;
+	display: flex;
+	height: 37.5vw;
+	justify-content: space-between;
+}
+.home-div2-text {
+	width: 40vw;
+	padding-right: 2vw;
+	padding-top: 5vw;
+}
+.home-div2-text li {
+	margin-bottom: 1.5vw;
+}
+.home-div2-image img {
+	width: 49.5vw;
+}
+
+.home-div3 {
+	padding: 2vw 0vw 1.25vw 0vw;
+	height: 39.5vw;
+	display: flex;
+	justify-content: space-between;
+}
+.home-div3-text {
+	width: 40vw;
+	padding-top: 5vw;
+	padding-left: 13.8vw;
+}
+.home-div3-text li {
+	margin-bottom: 1.75vw;
+}
+.home-div3-image img {
+	width: 49.2vw;
+}
+.home-div3-image {
+	padding: 5vw 0vw 0vw 5vw;
+}
+
+.background {
+	width: 100.2%;
+	z-index: -3;
+	position: absolute;
+}
+.grid {
+	width: 100vw;
+	z-index: 5;
+	position: absolute;
+}
+.background-mobile {
+	display: none;
+}
+svg {
+	height: 27.5vw;
+	z-index: -2;
+	position: absolute;
+}
+
 /*mobile responsive version*/
 @media screen and (max-width: 768px) {
 	.home-div1 {
