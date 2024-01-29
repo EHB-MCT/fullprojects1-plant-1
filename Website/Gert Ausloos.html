@@ -210,54 +210,55 @@
 					<img src="images/gert3.png" alt="groepsfoto Plantbewust" />
 				</div>
 			</div>
-			<form class="div-contact" action="contact.php" method="post">
-				<p class="contact">Contact</p>
-				<div class="div-contact-formulier">
-					<div class="formulier-info">
-						<ul>
-							<li><label for="familyname">Naam</label></li>
-							<li><label for="name">Voornaam</label></li>
-							<li><label for="email">Email</label></li>
-						</ul>
-					</div>
-					<div class="formulier-info-input">
-						<ul>
-							<li>
-								<input type="text" id="familyname" name="familyname" required />
-							</li>
-							<li><input type="text" id="name" name="name" required /></li>
-							<li><input type="email" id="email" name="email" required /></li>
-						</ul>
-					</div>
-					<div class="formulier-info2">
-						<label for="message">Bericht</label>
-					</div>
-					<div class="formulier-info-input2">
-						<textarea id="message" name="message" required></textarea>
-						<input type="submit" value="Submit" />
-					</div>
-				</div>
-			</form>
 		</div>
+		<form class="div-contact" action="contact.php" method="post">
+			<p class="contact">Contact</p>
+			<div class="div-contact-formulier">
+				<div class="formulier-info">
+					<ul>
+						<li><label for="familyname">Naam</label></li>
+						<li><label for="name">Voornaam</label></li>
+						<li><label for="email">Email</label></li>
+					</ul>
+				</div>
+				<div class="formulier-info-input">
+					<ul>
+						<li>
+							<input type="text" id="familyname" name="familyname" required />
+						</li>
+						<li><input type="text" id="name" name="name" required /></li>
+						<li><input type="email" id="email" name="email" required /></li>
+					</ul>
+				</div>
+				<div class="formulier-info2">
+					<label for="message">Bericht</label>
+				</div>
+				<div class="formulier-info-input2">
+					<textarea id="message" name="message" required></textarea>
+					<input type="submit" value="Submit" />
+				</div>
+			</div>
+		</form>
+
 		<div class="div-contact-mobile">
 			<p class="contact">Contact</p>
 			<div class="div-contact-formulier">
 				<div class="formulier-info1">
-					<h4>naam</h4>
-					<input type="text" />
+					<label for="familyname">Naam</label>
+					<input type="text" id="familyname" name="familyname" required />
 				</div>
-				<div class="formulier-info2">
-					<h4>voornaam</h4>
-					<input type="text" />
+				<div class="formulier-info4">
+					<label for="name">Voornaam</label>
+					<input type="text" id="name" name="name" required />
 				</div>
 				<div class="formulier-info3">
-					<h4>email</h4>
-					<input type="text" />
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" required />
 				</div>
 				<div class="formulier-info-input1">
-					<h4>bericht</h4>
-					<textarea name="userInput" id="" cols="30" rows="10"></textarea>
-					<a href="#" class="btn-secondary">verzend</a>
+					<label for="message">Bericht</label>
+					<textarea id="message" name="message" required></textarea>
+					<input type="submit" value="Submit" />
 				</div>
 			</div>
 		</div>
