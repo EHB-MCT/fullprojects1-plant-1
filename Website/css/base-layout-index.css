@@ -4,55 +4,48 @@
 	body {
 		margin: 0vw;
 		background-color: #707e67;
+		width: 100%;
 	}
-	.header {
-		padding: 0vw;
-	}
-
 	.home-div1 {
-		padding: 2vw 5vw 3vw 5vw;
+		padding: 5vw 0vw;
 		height: 40vw;
 		display: flex;
 		justify-content: space-between;
 	}
 	.home-div1-text {
 		width: 50vw;
+		padding-left: 13.65vw;
 	}
 	.home-div1-image {
-		width: 60vw;
+		width: 50vw;
 		padding-top: 2vw;
-		padding-left: 5vw;
+		padding-left: 10vw;
 		align-items: right;
 		z-index: -2;
 	}
 	.home-div1-image img {
-		width: 50vw;
+		width: 49.28vw;
 	}
 	.home-div2 {
-		padding: 4vw 5vw 5vw 1vw;
+		padding: 2vw 0vw 5vw 0vw;
 		display: flex;
 		height: 37.5vw;
 		justify-content: space-between;
 	}
 	.home-div2-text {
 		width: 40vw;
-		padding-left: 8vw;
+		padding-right: 2vw;
 		padding-top: 5vw;
 	}
 	.home-div2-text li {
 		margin-bottom: 1.5vw;
 	}
 	.home-div2-image img {
-		width: 47.5vw;
+		width: 49.5vw;
 	}
-	.home-div2-image {
-		padding: 5vw 0vw 0vw 5vw;
-	}
-	.home-div2-mobile {
-		display: none;
-	}
+
 	.home-div3 {
-		padding: 2.5vw 5vw 1.25vw 13vw;
+		padding: 2vw 0vw 1.25vw 0vw;
 		height: 39.5vw;
 		display: flex;
 		justify-content: space-between;
@@ -60,12 +53,13 @@
 	.home-div3-text {
 		width: 40vw;
 		padding-top: 5vw;
+		padding-left: 13.8vw;
 	}
 	.home-div3-text li {
 		margin-bottom: 1.75vw;
 	}
 	.home-div3-image img {
-		width: 45vw;
+		width: 49.2vw;
 	}
 	.home-div3-image {
 		padding: 5vw 0vw 0vw 5vw;
@@ -76,33 +70,27 @@
 		z-index: -3;
 		position: absolute;
 	}
+	.grid {
+		width: 100vw;
+		z-index: 5;
+		position: absolute;
+	}
 	.background-mobile {
 		display: none;
-		width: 100vw;
-		z-index: -3;
-		position: absolute;
 	}
 	svg {
 		height: 27.5vw;
 		z-index: -2;
 		position: absolute;
 	}
-	.div-contact {
-		padding-top: 5%;
-		padding-left: 0%;
-	}
 }
 /*mobile responsive version*/
 @media screen and (max-width: 768px) {
-	body {
-		width: 100%;
-	}
 	.home-div1 {
 		padding: 0vw;
 		width: 100%;
 		height: 165vw;
 		flex-direction: column;
-		justify-content: space-between;
 		margin-bottom: 20vw;
 	}
 	.home-div1-text {
@@ -118,17 +106,13 @@
 		width: 90%;
 	}
 	.home-div2 {
-		display: none;
-	}
-	.home-div2-mobile {
 		padding: 0vw;
-		display: flex;
 		flex-direction: column;
 		height: 135vw;
 		width: 100%;
-		justify-content: space-between;
 		margin-bottom: 25vw;
 	}
+
 	.home-div2-text {
 		width: 80%;
 		padding-left: 10%;
@@ -143,14 +127,14 @@
 	.home-div2-image {
 		width: 90%;
 		padding-left: 10%;
+		order: 2;
 	}
 	.home-div3 {
 		padding: 0vw;
 		height: 150vw;
-		margin-bottom: 25vw;
+		margin-bottom: 5vw;
 		width: 100%;
 		flex-direction: column;
-		justify-content: space-between;
 	}
 	.home-div3-text {
 		width: 80%;
@@ -167,25 +151,14 @@
 	.home-div3-image {
 		padding: 0vw;
 	}
-	.contact {
-		padding-left: 10vw;
-		margin: 0vw;
-	}
 	.background {
 		display: none;
 	}
 	.background-mobile {
 		display: flex;
 		width: 100%;
-	}
-	svg {
-		height: 27.5vw;
-		z-index: -2;
+		z-index: -3;
 		position: absolute;
-	}
-	.div-contact {
-		padding-top: 5%;
-		padding-left: 0%;
 	}
 }
 nav li:nth-child(1)::marker {
