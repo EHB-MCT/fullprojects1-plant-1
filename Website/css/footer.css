@@ -75,6 +75,10 @@
 	background-color: #7b8874;
 	border-radius: 5px;
 	resize: none;
+	color: white;
+	font-family: "omnes-pro", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 .formulier-info-input2 input {
 	color: white;
@@ -92,7 +96,7 @@
 	.div-contact-mobile {
 		padding: 0vw 10vw 30vw 10vw;
 		margin-top: 0px;
-		height: 125vw;
+		height: 150vw;
 		width: 80vw;
 		display: flex;
 		flex-direction: column;
@@ -140,6 +144,7 @@
 	}
 	.div-contact-formulier input {
 		height: 5vw;
+		width: 100%;
 	}
 	.formulier-info-input1 textarea {
 		height: 50vw;
