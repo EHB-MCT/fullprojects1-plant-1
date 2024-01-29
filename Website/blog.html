@@ -3,7 +3,11 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>PlantAwareness</title>
+		<title>PlantBewust | blog</title>
+		<meta
+			name="description"
+			content="tijdens onze bijeenkomsten filosoferen we over enkele dilemmas. Van de voorbije bijeenkomsten worden steeds verslagen gemaakt"
+		/>
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/footer.css" />
 		<link rel="stylesheet" href="css/nav.css" />
@@ -18,7 +22,12 @@
 		<form class="form-horizontal" method="post" action="contact.php"></form>
 	</head>
 	<body>
-		<img class="background" src="images/BG-blog.png" alt="" class="visible" />
+		<img
+			class="background"
+			src="images/BG-blog.png"
+			alt="achtergrondfoto"
+			class="visible"
+		/>
 		<!-- Simulate a smartphone / tablet -->
 		<div class="mobile-container">
 			<h1>PlantAwareness</h1>
@@ -62,7 +71,11 @@
 			<!-- End smartphone / tablet look -->
 		</div>
 		<div class="header">
-			<img class="nav-image" src="images/Navigation.png" alt="" />
+			<img
+				class="nav-image"
+				src="images/Navigation.png"
+				alt="navigatie-achtergrond"
+			/>
 			<h1>PlantAwareness</h1>
 			<nav>
 				<ul>
@@ -109,7 +122,7 @@
 				<a href="Gert Ausloos.html" class="btn-primary">Wie is Gert Ausloos</a>
 			</div>
 			<div class="blog-div1-image">
-				<img src="images/blog-1.png" alt="" />
+				<img src="images/blog-1.png" alt="plantentuin meise" />
 			</div>
 		</div>
 		<div class="blog-div2">
@@ -118,7 +131,7 @@
 			</div>
 			<div class="blog-div2-text">
 				<div class="blog-div2-datum">
-					<img src="images/blog-2.png" alt="" />
+					<img src="images/blog-2.png" alt="kasteel" />
 					<p>4 april 2024</p>
 				</div>
 				<div class="blog-div2-verslag">
@@ -188,7 +201,7 @@
 			</div>
 			<div class="blog-div3-text">
 				<div class="blog-div3-datum">
-					<img src="images/blog-2.png" alt="" />
+					<img src="images/blog-2.png" alt="kasteel" />
 					<p>4 april 2024</p>
 				</div>
 				<div class="blog-div3-verslag">
@@ -305,43 +318,34 @@
 				</div>
 			</div>
 		</div>
-		<div class="div-contact">
-			<svg viewBox="0 0 500 500">
-				<path
-					id="curve"
-					fill="none"
-					stroke="none"
-					d="M100,125 C100,125 300,190 600,150 "
-				></path>
-
-				<text width="500" fill="white">
-					<textPath class="contact" xlink:href="#curve">Contact</textPath>
-				</text>
-			</svg>
+		<form class="div-contact" action="contact.php" method="post">
+			<p class="contact">Contact</p>
 			<div class="div-contact-formulier">
 				<div class="formulier-info">
 					<ul>
-						<li>naam</li>
-						<li>voornaam</li>
-						<li>e-mail</li>
+						<li><label for="familyname">Naam</label></li>
+						<li><label for="name">Voornaam</label></li>
+						<li><label for="email">Email</label></li>
 					</ul>
 				</div>
 				<div class="formulier-info-input">
 					<ul>
-						<li><input type="text" /></li>
-						<li><input type="text" /></li>
-						<li><input type="email" /></li>
+						<li>
+							<input type="text" id="familyname" name="familyname" required />
+						</li>
+						<li><input type="text" id="name" name="name" required /></li>
+						<li><input type="email" id="email" name="email" required /></li>
 					</ul>
 				</div>
 				<div class="formulier-info2">
-					<p>bericht</p>
+					<label for="message">Bericht</label>
 				</div>
 				<div class="formulier-info-input2">
-					<textarea name="userInput" id="" cols="30" rows="10"></textarea>
-					<a href="#" class="btn-secondary">verzend</a>
+					<textarea id="message" name="message" required></textarea>
+					<input type="submit" value="Submit" />
 				</div>
 			</div>
-		</div>
+		</form>
 		<div class="div-contact-mobile">
 			<p class="contact">Contact</p>
 			<div class="div-contact-formulier">

@@ -3,7 +3,11 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>PlantAwareness</title>
+		<title>PlantBewust | Gert Ausloos</title>
+		<meta
+			name="description"
+			content="Gert Ausloos was een belangrijk persoon voor PlantBewust. Zijn missie was het plantblindheid te verminderen"
+		/>
 		<link rel="stylesheet" href="css/normalize.css" />
 
 		<link rel="stylesheet" href="css/nav.css" />
@@ -18,9 +22,12 @@
 		<form class="form-horizontal" method="post" action="contact.php"></form>
 	</head>
 	<body>
-		<img class="background" src="images/BGgert.png" alt="" />
-
-		<img class="mobileBackground" src="images/mobileGert.png" alt="" />
+		<img class="background" src="images/BGgert.png" alt="achtergrondfoto" />
+		<img
+			class="mobileBackground"
+			src="images/mobileGert.png"
+			alt="achtergrondfoto mobiel"
+		/>
 
 		<!-- Simulate a smartphone / tablet -->
 		<div class="mobile-container">
@@ -46,7 +53,11 @@
 		</div>
 
 		<div class="header">
-			<img class="nav-image" src="images/Navigation.png" alt="" />
+			<img
+				class="nav-image"
+				src="images/Navigation.png"
+				alt="navigatie-achtergrond"
+			/>
 			<h1>Gert Ausloos</h1>
 			<nav>
 				<ul>
@@ -70,7 +81,7 @@
 		<div class="ninetyWidth">
 			<div class="missie">
 				<div class="missie-image">
-					<img src="images/gert.png" alt="" />
+					<img src="images/gert.png" alt="Gert Ausloos" />
 				</div>
 				<div class="missie-text desktop">
 					<h2>zijn missie</h2>
@@ -125,7 +136,7 @@
 					</p>
 				</div>
 				<div class="plantbewustzijn-image">
-					<img src="images/gert2.png" alt="" />
+					<img src="images/gert2.png" alt="Gert Ausloos" />
 				</div>
 			</div>
 			<div class="boodschap">
@@ -160,44 +171,38 @@
 					</p>
 					<a class="btn-primary" href="wie is wie.html">leer ons kennen</a>
 				</div>
+				<div class="boodschap-image">
+					<img src="images/gert3.png" alt="" />
+				</div>
 			</div>
-			<div class="div-contact">
-				<svg viewBox="0 0 500 500">
-					<path
-						id="curve"
-						fill="none"
-						stroke="none"
-						d="M100,125 C100,125 300,190 600,150 "
-					></path>
-
-					<text width="500" fill="white">
-						<textPath class="contact" xlink:href="#curve">Contact</textPath>
-					</text>
-				</svg>
+			<form class="div-contact" action="contact.php" method="post">
+				<p class="contact">Contact</p>
 				<div class="div-contact-formulier">
 					<div class="formulier-info">
 						<ul>
-							<li>naam</li>
-							<li>voornaam</li>
-							<li>e-mail</li>
+							<li><label for="familyname">Naam</label></li>
+							<li><label for="name">Voornaam</label></li>
+							<li><label for="email">Email</label></li>
 						</ul>
 					</div>
 					<div class="formulier-info-input">
 						<ul>
-							<li><input type="text" /></li>
-							<li><input type="text" /></li>
-							<li><input type="email" /></li>
+							<li>
+								<input type="text" id="familyname" name="familyname" required />
+							</li>
+							<li><input type="text" id="name" name="name" required /></li>
+							<li><input type="email" id="email" name="email" required /></li>
 						</ul>
 					</div>
 					<div class="formulier-info2">
-						<p>bericht</p>
+						<label for="message">Bericht</label>
 					</div>
 					<div class="formulier-info-input2">
-						<textarea name="userInput" id="" cols="30" rows="10"></textarea>
-						<a href="#" class="btn-secondary">verzend</a>
+						<textarea id="message" name="message" required></textarea>
+						<input type="submit" value="Submit" />
 					</div>
 				</div>
-			</div>
+			</form>
 		</div>
 		<div class="div-contact-mobile">
 			<p class="contact">Contact</p>
