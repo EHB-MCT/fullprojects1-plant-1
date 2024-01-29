@@ -127,7 +127,6 @@ a p:hover {
 	.mobile-container {
 		display: block;
 	}
-
 	.background {
 		display: none;
 	}
@@ -143,10 +142,6 @@ a p:hover {
 	.WIW-div1 {
 		width: 80%;
 		flex-wrap: wrap;
-	}
-	.WIW-kolommen {
-		flex-wrap: wrap;
-		text-align: right;
 	}
 
 	.WIW-div1-titel {

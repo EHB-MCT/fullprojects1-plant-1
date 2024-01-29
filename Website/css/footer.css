@@ -89,14 +89,13 @@
 	width: 90%;
 }
 .contact {
-	margin-bottom: 5vw;
-	margin-left: 1.25vw;
+	margin: 15vw 0vw 5vw 1.25vw;
 }
 @media screen and (max-width: 768px) {
 	.div-contact-mobile {
 		padding: 0vw 10vw 30vw 10vw;
 		margin-top: 0px;
-		height: 150vw;
+		height: 100vw;
 		width: 80vw;
 		display: flex;
 		flex-direction: column;
