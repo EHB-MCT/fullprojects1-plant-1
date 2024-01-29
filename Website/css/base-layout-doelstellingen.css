@@ -6,7 +6,9 @@ body {
 .header {
 	padding: 0vw;
 }
-
+.mobile {
+	display: none;
+}
 .background {
 	width: 100.2%;
 	z-index: -3;
@@ -110,6 +112,12 @@ svg {
 }
 
 @media screen and (max-width: 768px) {
+	.desktop {
+		display: none;
+	}
+	.mobile {
+		display: inline;
+	}
 	body {
 		margin: 0px;
 		background-color: #707e67;
@@ -151,7 +159,8 @@ svg {
 		flex-direction: column;
 		justify-content: space-between;
 		height: 125vw;
-		margin-bottom: 27.5vw;
+		margin-bottom: 24.5vw;
+		padding: 0vw;
 	}
 	.wetenschap-image {
 		width: 100%;
@@ -187,7 +196,7 @@ svg {
 	.duurzaamheid {
 		display: flex;
 		flex-direction: column;
-		padding-top: 7.5vw;
+		padding-top: 5.5vw;
 		justify-content: space-between;
 		height: 175vw;
 		margin-bottom: 10vw;
