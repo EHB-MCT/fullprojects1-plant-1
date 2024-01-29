@@ -70,11 +70,7 @@ body {
 	z-index: -3;
 	position: absolute;
 }
-.grid {
-	width: 100vw;
-	z-index: 5;
-	position: absolute;
-}
+
 .background-mobile {
 	display: none;
 }
@@ -163,4 +159,9 @@ svg {
 }
 nav li:nth-child(1)::marker {
 	color: #486d48;
+}
+.grid {
+	width: 100%;
+	z-index: -3;
+	position: absolute;
 }

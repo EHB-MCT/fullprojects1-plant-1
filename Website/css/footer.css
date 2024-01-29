@@ -11,9 +11,9 @@
 	display: none;
 }
 .div-contact-formulier {
-	width: 95%;
+	width: 100%;
 	display: flex;
-	margin-left: 4.5%;
+	padding-left: 0.75vw;
 }
 .div-contact-formulier ul {
 	margin-top: 0%;
@@ -24,27 +24,29 @@
 	border-radius: 7.5px;
 	border: none;
 	height: 7.5%;
-	width: 100%;
+	width: 27.5vw;
 }
 .formulier-info {
 	padding-left: 1%;
 }
 .formulier-info li {
 	text-align: right;
-	margin-bottom: 100%;
+	margin-bottom: 8vw;
 	color: white;
 }
+
 .formulier-info-input ul {
 	width: 100%;
 }
 .formulier-info-input li {
-	margin-bottom: 22%;
+	margin-bottom: 7.5vw;
 	color: white;
 }
 .formulier-info-input {
-	width: 27.5%;
-	padding-left: 2.5%;
+	width: 35%;
+	margin-left: 1.75%;
 }
+
 .formulier-info2 label {
 	color: white;
 	text-align: right;
@@ -53,10 +55,9 @@
 	font-style: normal;
 	list-style: none;
 	font-size: 1.25vw;
-	padding-left: 100%;
 }
 .formulier-info-input2 {
-	width: 42.5%;
+	width: 45vw;
 	display: flex;
 	flex-direction: column;
 	font-family: "omnes-pro", sans-serif;
@@ -64,11 +65,11 @@
 	font-style: normal;
 	list-style: none;
 	font-size: 1.25vw;
-	padding-left: 7.5%;
+	margin-left: 2vw;
 }
 .formulier-info-input2 textarea {
 	height: 60%;
-	width: 87.5%;
+	width: 94%;
 	margin-bottom: 3%;
 	color: white;
 	background-color: #7b8874;
@@ -83,16 +84,9 @@
 	height: 7.5%;
 	width: 90%;
 }
-.footer {
-	width: 100%;
-	z-index: -1;
-	position: absolute;
-}
-
-svg {
-	height: 400px;
-	z-index: -2;
-	position: absolute;
+.contact {
+	margin-bottom: 5vw;
+	margin-left: 1.25vw;
 }
 @media screen and (max-width: 768px) {
 	.div-contact-mobile {
