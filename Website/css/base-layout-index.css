@@ -66,15 +66,6 @@ body {
 	padding: 5vw 0vw 0vw 5vw;
 }
 
-.background {
-	width: 100.2%;
-	z-index: -3;
-	position: absolute;
-}
-
-.background-mobile {
-	display: none;
-}
 svg {
 	height: 27.5vw;
 	z-index: -2;
@@ -140,16 +131,6 @@ svg {
 	}
 	.home-div3-text li {
 		margin-bottom: 4vw;
-	}
-
-	.background {
-		display: none;
-	}
-	.background-mobile {
-		display: flex;
-		width: 100%;
-		z-index: -3;
-		position: absolute;
 	}
 }
 nav li:nth-child(1)::marker {
