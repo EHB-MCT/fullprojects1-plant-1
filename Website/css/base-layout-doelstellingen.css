@@ -77,6 +77,7 @@ svg {
 .duurzaamheid-image {
 	width: 42vw;
 }
+
 .duurzaamheid-image img {
 	width: 100%;
 }
@@ -121,10 +122,10 @@ svg {
 	.empathie {
 		display: flex;
 		flex-direction: column;
-		padding-top: 20vw;
+		padding-top: 15vw;
 		justify-content: space-between;
 		height: 125vw;
-		margin-bottom: 27.5vw;
+		margin-bottom: 25vw;
 	}
 	.empathie-image {
 		width: 100%;
@@ -143,8 +144,9 @@ svg {
 		flex-direction: column;
 		justify-content: space-between;
 		height: 125vw;
-		margin-bottom: 24.5vw;
+		margin-bottom: 27.5vw;
 		padding: 0vw;
+		padding-top: 2.5vw;
 	}
 	.wetenschap-image {
 		width: 100%;
@@ -180,10 +182,10 @@ svg {
 	.duurzaamheid {
 		display: flex;
 		flex-direction: column;
-		padding-top: 5.5vw;
+		padding-top: 10vw;
 		justify-content: space-between;
 		height: 175vw;
-		margin-bottom: 10vw;
+		margin-bottom: 5vw;
 	}
 	.duurzaamheid-image {
 		width: 100%;
@@ -196,11 +198,12 @@ svg {
 		padding-left: 10vw;
 		width: 80%;
 	}
+
 	.tuinieren {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		margin-top: 10vw;
+		margin-top: 5vw;
 		height: 190vw;
 	}
 	.tuinieren-image {
