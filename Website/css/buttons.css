@@ -104,18 +104,23 @@
 	font-weight: 700;
 	font-style: normal;
 	text-decoration: none;
-	padding: 0.25vw 10vw;
+	padding: 0.5vw 10vw;
 	border-color: #733123;
 	border-width: 2px;
-	border-radius: 15px;
+	border-radius: 25px;
 	text-decoration: none;
 	border-style: solid;
-	margin-top: 5vw;
+	margin-top: 10vw;
+	font-size: 4vw;
 }
 .btn-blog:hover {
 	background-color: #733123;
 	color: white;
 	border-color: #733123;
+}
+.green {
+	color: #707e67;
+	border-color: #707e67;
 }
 @keyframes greenisch {
 	0% {
@@ -144,9 +149,10 @@
 }
 @media screen and (max-width: 768px) {
 	.btn-primary {
-		padding: 0vw 22.5vw;
+		padding: 0.5vw 19.5vw;
 		margin-right: 0vw;
-		font-size: 3.5vw;
+		font-size: 4.1vw;
+		max-width: 80%;
 	}
 	.btn-secondary {
 		padding: 1vw 42.5%;
