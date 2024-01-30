@@ -6,7 +6,7 @@
 	font-weight: 700;
 	font-style: normal;
 	text-decoration: none;
-	padding: 0.1vw 10vw;
+	padding: 0.25vw 10vw;
 	border-color: #707e67;
 	border-width: 2px;
 	border-radius: 15px;
@@ -97,6 +97,25 @@
 	animation-name: greenischfill;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
+}
+.btn-blog {
+	color: #733123;
+	font-family: "santelia-script", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-decoration: none;
+	padding: 0.25vw 10vw;
+	border-color: #733123;
+	border-width: 2px;
+	border-radius: 15px;
+	text-decoration: none;
+	border-style: solid;
+	margin-top: 5vw;
+}
+.btn-blog:hover {
+	background-color: #733123;
+	color: white;
+	border-color: #733123;
 }
 @keyframes greenisch {
 	0% {
