@@ -13,15 +13,9 @@ body {
 .header {
 	padding: 0px;
 }
-h2 {
-	font-size: 3.5svw;
-}
 h3 {
 	color: #6b7a62;
-	font-size: 2vw;
-	font-family: "omnes-pro", sans-serif;
 	font-weight: 600;
-	font-style: normal;
 	margin: 0.25vw 0;
 }
 p {
@@ -29,20 +23,11 @@ p {
 	text-align: left;
 	margin-top: 0;
 }
-h6 {
-	text-align: end;
-	color: #808b76;
-	font-family: "omnes-pro", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 1.5vw;
-	margin: 0.1vw 0vh;
-}
 .ghost-image {
 	height: 32.5vw;
 }
 .WIW-div1 {
-	margin: 0vw 6.5vw 10vw 6.5vw;
+	margin: 0vw 0vw 15vw 6.5vw;
 	text-align: left;
 	width: auto;
 	display: flex;
@@ -62,7 +47,7 @@ h6 {
 	width: 100%;
 }
 .WIW-div2 {
-	margin: 0vw 6.5vw 17.5vw 6.5vw;
+	margin: 0vw 6.5vw 17.5vw 0vw;
 	text-align: left;
 	width: auto;
 	display: flex;
@@ -83,7 +68,7 @@ h6 {
 	width: 100%;
 }
 .WIW-div3 {
-	margin: 5vw 6.5vw 15vw 6.5vw;
+	margin: 5vw 0vw 15vw 6.5vw;
 	text-align: left;
 	width: auto;
 	display: flex;
@@ -137,19 +122,45 @@ a p:hover {
 		display: none;
 	}
 	.ghost-image {
-		height: 90vw;
+		height: 100vw;
 	}
 	.WIW-div1 {
-		width: 80%;
-		flex-wrap: wrap;
+		width: 100%;
+		height: 200vw;
+		flex-direction: column;
+		margin: 0vw 0vw 40vw 0vw;
 	}
-
-	.WIW-div1-titel {
+	.WIW-div1-info {
+		width: 80%;
+		margin-left: 10%;
+	}
+	.WIW-div1-image {
 		width: 100%;
 	}
-	.WIW-div1-kolom1,
-	.WIW-div1-kolom2 {
-		margin-left: auto;
+	.WIW-div2 {
+		width: 100%;
+		height: 225vw;
+		flex-direction: column;
+		margin: 0vw 0vw 40vw 0vw;
+	}
+	.WIW-div2-info {
+		width: 80%;
+		margin-left: 10%;
+	}
+	.WIW-div2-image {
+		width: 100%;
+		order: 2;
+	}
+	.WIW-div3 {
+		width: 100%;
+		flex-direction: column;
+		margin: 0vw;
+	}
+	.WIW-div3-info {
+		width: 80%;
+		margin-left: 10%;
+	}
+	.WIW-div3-image {
 		width: 100%;
 	}
 	.name {
@@ -157,17 +168,17 @@ a p:hover {
 	}
 	h2 {
 		text-align: left;
-		font-size: 7vw;
-		margin: 6vw 0px 0px 0px;
+		margin: 6vw 0px 10px 0px;
 	}
 	p {
-		margin-top: 2vw;
-		text-align: right;
-		font-size: 6vw;
+		margin-top: 1vw;
+		text-align: left;
+		font-size: 5vw;
 	}
-	h6 {
-		font-size: 4vw;
-		margin-bottom: 4.8vw;
+	h3 {
+		font-size: 6vw;
+		margin-bottom: 1vw;
+		margin-top: 2vw;
 	}
 	.WIW-div1-kolom2 {
 		margin-bottom: 5vw;
