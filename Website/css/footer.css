@@ -89,7 +89,7 @@
 	width: 90%;
 }
 .contact {
-	margin: 15vw 0vw 5vw 1.25vw;
+	margin: 3vw 0vw 5vw 1.25vw;
 }
 @media screen and (max-width: 768px) {
 	.div-contact-mobile {
@@ -103,6 +103,9 @@
 	}
 	.div-contact {
 		display: none;
+	}
+	.contact {
+		margin: 15vw 0vw 5vw 1.25vw;
 	}
 	.div-contact-formulier {
 		display: flex;
