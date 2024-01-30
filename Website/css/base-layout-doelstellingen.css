@@ -127,7 +127,8 @@ svg {
 		margin-bottom: 27.5vw;
 	}
 	.empathie-image {
-		width: 100vw;
+		width: 100%;
+		padding-left: 0vw;
 	}
 	.empathie-image img {
 		width: 100%;
