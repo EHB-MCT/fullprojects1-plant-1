@@ -122,13 +122,13 @@ a p:hover {
 		display: none;
 	}
 	.ghost-image {
-		height: 100vw;
+		height: 70vw;
 	}
 	.WIW-div1 {
 		width: 100%;
-		height: 200vw;
+		height: 185vw;
 		flex-direction: column;
-		margin: 0vw 0vw 40vw 0vw;
+		margin: 0vw 0vw 10vw 0vw;
 	}
 	.WIW-div1-info {
 		width: 80%;
@@ -139,9 +139,9 @@ a p:hover {
 	}
 	.WIW-div2 {
 		width: 100%;
-		height: 225vw;
+		height: 185vw;
 		flex-direction: column;
-		margin: 0vw 0vw 40vw 0vw;
+		margin: 0vw 0vw 10vw 0vw;
 	}
 	.WIW-div2-info {
 		width: 80%;
@@ -153,6 +153,7 @@ a p:hover {
 	}
 	.WIW-div3 {
 		width: 100%;
+		height: 185vw;
 		flex-direction: column;
 		margin: 0vw;
 	}
