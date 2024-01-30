@@ -24,7 +24,7 @@ p {
 	margin-top: 0;
 }
 .ghost-image {
-	height: 32.5vw;
+	height: 37.5vw;
 }
 .WIW-div1 {
 	margin: 0vw 0vw 15vw 6.5vw;
@@ -47,7 +47,7 @@ p {
 	width: 100%;
 }
 .WIW-div2 {
-	margin: 0vw 6.5vw 17.5vw 0vw;
+	margin: 0vw 6.5vw 5vw 0vw;
 	text-align: left;
 	width: auto;
 	display: flex;
@@ -68,7 +68,7 @@ p {
 	width: 100%;
 }
 .WIW-div3 {
-	margin: 5vw 0vw 15vw 6.5vw;
+	margin: 5vw 0vw 5vw 6.5vw;
 	text-align: left;
 	width: auto;
 	display: flex;
