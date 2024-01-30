@@ -8,13 +8,11 @@ body {
 .mobile {
 	display: none;
 }
-
 svg {
 	height: 400px;
 	z-index: -2;
 	position: absolute;
 }
-
 .empathie {
 	display: flex;
 	padding-top: 3vw;
@@ -50,7 +48,6 @@ svg {
 	width: 33.1vw;
 	padding: 0vw 9vw 0vw 0vw;
 }
-
 .filosofie {
 	display: flex;
 	justify-content: space-between;
@@ -77,7 +74,6 @@ svg {
 .duurzaamheid-image {
 	width: 42vw;
 }
-
 .duurzaamheid-image img {
 	width: 100%;
 }
@@ -100,7 +96,6 @@ svg {
 	padding-left: 13.9vw;
 	width: 35vw;
 }
-
 @media screen and (max-width: 768px) {
 	.desktop {
 		display: none;
@@ -112,13 +107,11 @@ svg {
 		margin: 0px;
 		background-color: #707e67;
 	}
-
 	svg {
 		height: 400px;
 		z-index: -2;
 		position: absolute;
 	}
-
 	.empathie {
 		display: flex;
 		flex-direction: column;
@@ -198,7 +191,6 @@ svg {
 		padding-left: 10vw;
 		width: 80%;
 	}
-
 	.tuinieren {
 		display: flex;
 		flex-direction: column;
