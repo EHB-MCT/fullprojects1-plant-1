@@ -125,7 +125,7 @@
 }
 @media screen and (max-width: 768px) {
 	.btn-primary {
-		padding: 0vw 10%;
+		padding: 0vw 22.5vw;
 		margin-right: 0vw;
 		font-size: 3.5vw;
 	}

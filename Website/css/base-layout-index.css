@@ -19,12 +19,13 @@ body {
 .home-div1-image {
 	width: 50vw;
 	padding-top: 2vw;
-	padding-left: 10vw;
+	padding-left: 2.5vw;
 	align-items: right;
 	z-index: -2;
 }
 .home-div1-image img {
-	width: 49.28vw;
+	padding-top: 7.5%;
+	width: 100%;
 }
 .home-div2 {
 	padding: 2vw 0vw 5vw 0vw;
