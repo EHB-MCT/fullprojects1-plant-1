@@ -87,11 +87,7 @@ p {
 .WIW-div3-image img {
 	width: 100%;
 }
-.background {
-	width: 100.2%;
-	z-index: -3;
-	position: absolute;
-}
+
 .mobileBackground {
 	width: 100%;
 	z-index: -3;
@@ -110,12 +106,6 @@ a p:hover {
 }
 @media screen and (max-width: 768px) {
 	.mobile-container {
-		display: block;
-	}
-	.background {
-		display: none;
-	}
-	.mobileBackground {
 		display: block;
 	}
 	.header {
