@@ -6,7 +6,7 @@
 	font-weight: 700;
 	font-style: normal;
 	text-decoration: none;
-	padding: 0vw 20%;
+	padding: 0.1vw 10vw;
 	border-color: #707e67;
 	border-width: 2px;
 	border-radius: 15px;
@@ -15,7 +15,7 @@
 	animation-name: greenisch;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
-	margin-top: 50px;
+	margin-top: 5vw;
 }
 .btn-primary:hover {
 	background-color: #707e67;
