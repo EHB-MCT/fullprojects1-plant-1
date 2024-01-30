@@ -1,24 +1,12 @@
 body {
 	margin: 0px;
 	background-color: #707e67;
-	height: fit-content;
 }
 .header {
 	padding: 0vw;
 }
 .mobile {
 	display: none;
-}
-.background {
-	width: 100.2%;
-	z-index: -3;
-	position: absolute;
-}
-.background-mobile {
-	display: none;
-	width: 100vw;
-	z-index: -3;
-	position: absolute;
 }
 
 svg {
@@ -123,13 +111,7 @@ svg {
 		margin: 0px;
 		background-color: #707e67;
 	}
-	.background {
-		display: none;
-	}
-	.background-mobile {
-		display: flex;
-		width: 100%;
-	}
+
 	svg {
 		height: 400px;
 		z-index: -2;
