@@ -1,11 +1,10 @@
 .div-contact {
 	padding: 2% 5% 0% 5%;
 	margin-top: 0px;
-	height: 30%;
+	height: 37.5vw;
 	width: 90%;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 }
 .div-contact-mobile {
 	display: none;
@@ -14,6 +13,8 @@
 	width: 100%;
 	display: flex;
 	padding-left: 0.75vw;
+	height: 30vw;
+	overflow: hidden;
 }
 .div-contact-formulier ul {
 	margin-top: 0%;
@@ -66,9 +67,10 @@
 	list-style: none;
 	font-size: 1.25vw;
 	margin-left: 2vw;
+	justify-content: space-between;
 }
 .formulier-info-input2 textarea {
-	height: 60%;
+	height: 80%;
 	width: 94%;
 	margin-bottom: 3%;
 	color: white;
