@@ -98,7 +98,7 @@ svg {
 	.home-div1-image,
 	.home-div3-image {
 		width: 100vw;
-		padding: 10vw 0vw 0vw 0vw;
+		padding: 0vw 0vw 0vw 0vw;
 	}
 	.home-div1-image img,
 	.home-div3-image img {
@@ -118,11 +118,18 @@ svg {
 		width: 100%;
 		margin-bottom: 25vw;
 	}
+	.home-div2-text ul {
+		margin: 0vw;
+	}
 
 	.home-div2-text {
 		width: 80%;
 		padding-left: 10%;
 		padding-top: 10vw;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		height: 70vw;
 	}
 	.home-div2-text li {
 		margin-bottom: 3.5vw;
@@ -130,6 +137,9 @@ svg {
 
 	.home-div2-image {
 		order: 2;
+	}
+	.home-div2-image img {
+		margin-top: -15%;
 	}
 	.home-div3 {
 		padding: 0vw;
@@ -142,6 +152,10 @@ svg {
 		width: 80%;
 		padding-left: 10%;
 		padding-top: 10vw;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		height: 70vw;
 	}
 	.home-div3-text li {
 		margin-bottom: 4vw;

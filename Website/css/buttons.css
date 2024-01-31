@@ -16,6 +16,7 @@
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	margin-top: 5vw;
+	max-width: 100%;
 }
 .btn-primary:hover {
 	background-color: #707e67;
@@ -154,10 +155,16 @@
 }
 @media screen and (max-width: 768px) {
 	.btn-primary {
-		padding: 0.5vw 19.5vw;
+		margin-top: 0;
+		padding-top: 0.8vw;
+		padding-bottom: 0.8vw;
+		text-align: center;
 		margin-right: 0vw;
 		font-size: 4.1vw;
-		max-width: 80%;
+		max-width: 100vw;
+		width: 74%;
+		display: flex;
+		justify-content: center;
 	}
 	.btn-secondary {
 		padding: 1vw 42.5%;

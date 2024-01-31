@@ -13,6 +13,13 @@ h1 {
 	padding-top: 1vw;
 	padding-left: 6vw;
 }
+.maintitle {
+	font-family: "omnes-pro", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 7.5vw;
+	color: white;
+}
 nav {
 	text-align: right;
 	list-style-position: inside;
@@ -55,7 +62,7 @@ nav a {
 	font-style: normal;
 }
 .nav-image {
-	width: 100.2%;
+	width: 100.225%;
 	z-index: -1;
 	position: absolute;
 	margin-top: -0.2vw;
