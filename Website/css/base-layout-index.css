@@ -8,7 +8,7 @@ body {
 }
 .home-div1 {
 	padding: 5vw 0vw;
-	height: 40vw;
+	height: 35vw;
 	display: flex;
 	justify-content: space-between;
 }
@@ -28,21 +28,30 @@ body {
 	width: 100%;
 }
 .home-div2 {
-	padding: 2vw 0vw 5vw 0vw;
+	padding: 0vw 0vw 5vw 0vw;
 	display: flex;
 	height: 37.5vw;
+	width: 100%;
 	justify-content: space-between;
 }
 .home-div2-text {
 	width: 40vw;
 	padding-right: 2vw;
-	padding-top: 5vw;
+	padding-top: 10vw;
 }
 .home-div2-text li {
 	margin-bottom: 1.5vw;
 }
+.home-div2-image {
+	width: 40vw;
+	padding-left: 10vw;
+	padding-bottom: 1vw;
+	vertical-align: middle;
+}
 .home-div2-image img {
-	width: 49.5vw;
+	width: 75%;
+	rotate: -90deg;
+	padding-top: 0%;
 }
 
 .home-div3 {
