@@ -13,11 +13,6 @@ body {
 	padding: 0px;
 }
 
-h1 {
-	padding-top: 1%;
-	padding-left: 2%;
-}
-
 svg {
 	height: 400px;
 	z-index: -2;
