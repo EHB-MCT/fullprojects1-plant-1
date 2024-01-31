@@ -55,7 +55,14 @@ nav a {
 	font-style: normal;
 }
 .nav-image {
-	width: 100%;
+	width: 100.2%;
+	z-index: -1;
+	position: absolute;
+	margin-top: -0.2vw;
+	margin-left: -0.2vw;
+}
+.nav-image-wiw {
+	width: 100.2%;
 	z-index: -1;
 	position: absolute;
 	margin-top: -0.2vw;
