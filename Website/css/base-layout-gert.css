@@ -27,49 +27,49 @@ svg {
 	width: 100%;
 }
 
-.missie {
+.mission {
 	display: flex;
 	padding-top: 0vw;
 	align-items: center;
 }
-.missie div {
+.mission div {
 	flex: 1;
 }
-.missie-image {
+.mission-image {
 	text-align: center;
 }
-.missie-image img {
+.mission-image img {
 	width: 28.3vw;
 	padding-left: 5.9vw;
 }
-.missie-text {
+.mission-text {
 	text-align: left;
 	padding-left: 1vw;
 }
-.plantbewustzijn {
+.plantconsious {
 	display: flex;
 	align-items: center;
 }
-.plantbewustzijn div {
+.plantconsious div {
 	flex: 1;
 }
-.plantbewustzijn-image {
+.plantconsious-image {
 	text-align: center;
 	width: 30vw;
 	padding-left: -10vw;
 }
-.plantbewustzijn-image img {
+.plantconsious-image img {
 	width: 28.3vw;
 	padding-right: 13vw;
 	padding-top: 5vw;
 }
-.plantbewustzijn-text {
+.plantconsious-text {
 	text-align: left;
 	padding-left: 13.9vw;
 	padding-top: 10vw;
 }
 
-.boodschap {
+.message {
 	justify-content: space-between;
 	display: flex;
 	padding-top: 1vw;
@@ -77,11 +77,11 @@ svg {
 	align-items: center;
 }
 
-.boodschap-image img {
+.message-image img {
 	padding-top: 7vw;
 	width: 49.3vw;
 }
-.boodschap-text {
+.message-text {
 	text-align: left;
 	padding-right: 7.2vw;
 }
@@ -103,49 +103,49 @@ svg {
 		display: none;
 	}
 
-	.missie,
-	.plantbewustzijn,
+	.mission,
+	.plantconsious,
 	.carriere,
-	.boodschap {
+	.message {
 		flex-wrap: wrap;
 	}
-	.missie-text,
-	.plantbewustzijn-text,
-	.boodschap-text {
+	.mission-text,
+	.plantconsious-text,
+	.message-text {
 		padding: 0vw 10vw;
 		width: 80vw;
 	}
 
-	.missie-image img {
+	.mission-image img {
 		width: 100vw;
 		margin-top: 27vw;
 		padding-left: 0vw;
 	}
-	.plantbewustzijn {
+	.plantconsious {
 		padding-top: 25vw;
 	}
-	.plantbewustzijn-text {
+	.plantconsious-text {
 		order: 2;
 	}
-	.plantbewustzijn-image {
+	.plantconsious-image {
 		text-align: center;
 		width: 80vw;
 	}
-	.plantbewustzijn-image img {
+	.plantconsious-image img {
 		width: 100vw;
 		padding-right: 0vw;
 		padding-left: 0vw;
 	}
 
-	.boodschap-image img {
+	.message-image img {
 		padding-top: 15vw;
 		width: 100vw;
 	}
-	.boodschap-text {
+	.message-text {
 		order: 2;
 		text-align: left;
 	}
-	.boodschap-text {
+	.message-text {
 		order: 2;
 		text-align: left;
 	}
