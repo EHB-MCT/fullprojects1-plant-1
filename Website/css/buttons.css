@@ -111,7 +111,7 @@
 	text-decoration: none;
 	border-style: solid;
 	margin-top: 10vw;
-	font-size: 1vw;
+	font-size: 1.05vw;
 }
 .btn-blog:hover {
 	background-color: #733123;
@@ -121,6 +121,11 @@
 .green {
 	color: #707e67;
 	border-color: #707e67;
+}
+.green:hover {
+	background-color: #707e67;
+	border-color: #707e67;
+	color: white;
 }
 @keyframes greenisch {
 	0% {

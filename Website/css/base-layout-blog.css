@@ -16,8 +16,12 @@ p {
 	margin-top: 0vw;
 	margin-bottom: 10vw;
 }
+h3 {
+	margin-top: 0;
+}
 .blog-div1 {
 	display: flex;
+	justify-content: space-between;
 }
 .blog-div1-text {
 	padding-left: 10vw;
