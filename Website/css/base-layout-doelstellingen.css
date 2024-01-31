@@ -13,86 +13,86 @@ svg {
 	z-index: -2;
 	position: absolute;
 }
-.empathie {
+.empathy {
 	display: flex;
 	padding-top: 3vw;
 	align-items: center;
 	justify-content: space-around;
 	height: 30vw;
 }
-.empathie-image {
+.empathy-image {
 	width: 41.8vw;
 	padding-left: 8vw;
 }
-.empathie-image img {
+.empathy-image img {
 	width: 100%;
 }
-.empathie-text {
+.empathy-text {
 	padding-left: 9.7vw;
 	width: 33%;
 	padding-right: 7.6vw;
 }
-.wetenschap {
+.science {
 	padding: 8vw 0vw 7vw 0vw;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
-.wetenschap-image {
+.science-image {
 	width: 42vw;
 }
-.wetenschap-image img {
+.science-image img {
 	width: 42vw;
 }
-.wetenschap-text {
+.science-text {
 	width: 33.1vw;
 	padding: 0vw 9vw 0vw 0vw;
 }
-.filosofie {
+.philosophy {
 	display: flex;
 	justify-content: space-between;
 	height: 40vw;
 }
 
-.filosofie-image {
+.philosophy-image {
 	width: 42vw;
 	padding-top: 3vw;
 }
-.filosofie-image img {
+.philosophy-image img {
 	width: 100%;
 }
-.filosofie-text {
+.philosophy-text {
 	padding-left: 13.8vw;
 	width: 34vw;
 }
-.duurzaamheid {
+.durability {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 3vw 0vw 5vw 0vw;
 }
-.duurzaamheid-image {
+.durability-image {
 	width: 42vw;
 }
-.duurzaamheid-image img {
+.durability-image img {
 	width: 100%;
 }
-.duurzaamheid-text {
+.durability-text {
 	width: 35vw;
 	padding-right: 7vw;
 }
-.tuinieren {
+.gardening {
 	display: flex;
 	justify-content: space-between;
 	height: 37.5vw;
 }
-.tuinieren-image {
+.gardening-image {
 	width: 42vw;
 }
-.tuinieren-image img {
+.gardening-image img {
 	width: 100%;
 }
-.tuinieren-text {
+.gardening-text {
 	padding-left: 13.9vw;
 	width: 35vw;
 }
@@ -112,7 +112,7 @@ svg {
 		z-index: -2;
 		position: absolute;
 	}
-	.empathie {
+	.empathy {
 		display: flex;
 		flex-direction: column;
 		padding-top: 15vw;
@@ -120,19 +120,19 @@ svg {
 		height: 125vw;
 		margin-bottom: 25vw;
 	}
-	.empathie-image {
+	.empathy-image {
 		width: 100%;
 		padding-left: 0vw;
 	}
-	.empathie-image img {
+	.empathy-image img {
 		width: 100%;
 	}
-	.empathie-text {
+	.empathy-text {
 		padding-left: 10vw;
 		width: 80vw;
 	}
 
-	.wetenschap {
+	.science {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -141,19 +141,19 @@ svg {
 		padding: 0vw;
 		padding-top: 2.5vw;
 	}
-	.wetenschap-image {
+	.science-image {
 		width: 100%;
 		order: 2;
 	}
-	.wetenschap-image img {
+	.science-image img {
 		width: 100%;
 	}
-	.wetenschap-text {
+	.science-text {
 		padding-left: 10vw;
 		width: 80vw;
 	}
 
-	.filosofie {
+	.philosophy {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -161,18 +161,18 @@ svg {
 		margin-bottom: 20vw;
 	}
 
-	.filosofie-image {
+	.philosophy-image {
 		width: 100%;
 		padding-top: 0vw;
 	}
-	.filosofie-image img {
+	.philosophy-image img {
 		width: 100%;
 	}
-	.filosofie-text {
+	.philosophy-text {
 		padding-left: 10vw;
 		width: 80%;
 	}
-	.duurzaamheid {
+	.durability {
 		display: flex;
 		flex-direction: column;
 		padding-top: 10vw;
@@ -180,31 +180,31 @@ svg {
 		height: 175vw;
 		margin-bottom: 5vw;
 	}
-	.duurzaamheid-image {
+	.durability-image {
 		width: 100%;
 		order: 2;
 	}
-	.duurzaamheid-image img {
+	.durability-image img {
 		width: 100%;
 	}
-	.duurzaamheid-text {
+	.durability-text {
 		padding-left: 10vw;
 		width: 80%;
 	}
-	.tuinieren {
+	.gardening {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 		margin-top: 5vw;
 		height: 190vw;
 	}
-	.tuinieren-image {
+	.gardening-image {
 		width: 100%;
 	}
-	.tuinieren-image img {
+	.gardening-image img {
 		width: 100%;
 	}
-	.tuinieren-text {
+	.gardening-text {
 		padding-left: 10vw;
 		width: 80%;
 	}
