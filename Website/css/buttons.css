@@ -111,7 +111,7 @@
 	text-decoration: none;
 	border-style: solid;
 	margin-top: 10vw;
-	font-size: 4vw;
+	font-size: 1vw;
 }
 .btn-blog:hover {
 	background-color: #733123;
@@ -158,5 +158,8 @@
 		padding: 1vw 42.5%;
 		margin-right: 0vw;
 		font-size: 3.5vw;
+	}
+	.btn-blog {
+		font-size: 4vw;
 	}
 }

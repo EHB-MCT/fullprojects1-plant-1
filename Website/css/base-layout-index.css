@@ -96,15 +96,20 @@ svg {
 		padding-top: 20vw;
 	}
 	.home-div1-image,
-	.home-div2-image,
 	.home-div3-image {
 		width: 100vw;
 		padding: 10vw 0vw 0vw 0vw;
 	}
 	.home-div1-image img,
-	.home-div2-image img,
 	.home-div3-image img {
-		width: 100vw;
+		width: 100%;
+	}
+	.home-div2-image {
+		padding: 10vw 0vw 0vw 18%;
+		width: 100%;
+	}
+	.home-div2-image img {
+		width: 62.5%;
 	}
 	.home-div2 {
 		padding: 0vw;

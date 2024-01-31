@@ -23,6 +23,9 @@ p {
 	padding-left: 10vw;
 	width: 35vw;
 }
+.blog-div1-text p {
+	margin-bottom: 5vw;
+}
 .blog-div1-image {
 	width: 45vw;
 	margin-left: 6.4vw;
@@ -234,7 +237,8 @@ nav li:nth-child(5)::marker {
 	.blog-div4-mobile {
 		display: flex;
 		flex-direction: column;
-		padding: 7.5vw 10% 0vw 10%;
+		padding: 15vw 10% 0vw 10%;
+		margin-bottom: 15vw;
 	}
 	.blog-div4-info {
 		flex-direction: column;
@@ -250,7 +254,7 @@ nav li:nth-child(5)::marker {
 		padding-top: 2vw;
 	}
 	.heightened {
-		height: 200vw;
+		height: 185vw;
 		margin-bottom: 0vw;
 	}
 }
