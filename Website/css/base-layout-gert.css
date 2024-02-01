@@ -68,7 +68,7 @@ svg {
 	justify-content: space-between;
 	display: flex;
 	padding-top: 1vw;
-	padding-bottom: 10vw;
+	padding-bottom: 7.5vw;
 	align-items: center;
 }
 
@@ -110,14 +110,16 @@ svg {
 		padding: 0vw 10vw;
 		width: 80vw;
 	}
-
+	.mission {
+		margin-bottom: 15vw;
+	}
 	.mission-image img {
 		width: 100vw;
 		margin-top: 27vw;
 		padding-left: 0vw;
 	}
 	.plantconsious {
-		padding-top: 25vw;
+		padding-top: 1dvh;
 	}
 	.plantconsious-text {
 		order: 2;
