@@ -105,6 +105,9 @@ svg {
 		width: 100vw;
 		padding: 0vw 0vw 0vw 0vw;
 	}
+	.smallbtn {
+		width: 100%;
+	}
 
 	.home-div1-image img,
 	.home-div3-image img {
@@ -165,6 +168,9 @@ svg {
 	}
 	.home-div3-text li {
 		margin-bottom: 4vw;
+	}
+	.home-div3-text h2 {
+		width: 80vw;
 	}
 }
 nav li:nth-child(1)::marker {
