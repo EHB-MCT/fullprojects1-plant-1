@@ -202,4 +202,10 @@
 	.btn-blog {
 		font-size: 4vw;
 	}
+	.btn-wiw {
+		width: 100vw;
+		font-size: 5vw;
+		height: 4.5vw;
+		margin-top: 7.5vw;
+	}
 }

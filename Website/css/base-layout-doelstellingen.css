@@ -120,8 +120,8 @@ svg {
 		flex-direction: column;
 		padding-top: 15vw;
 		justify-content: space-between;
-		height: 125vw;
-		margin-bottom: 25vw;
+		height: 145vw;
+		margin-bottom: 20vw;
 	}
 	.empathy-image {
 		width: 100%;
@@ -139,8 +139,8 @@ svg {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		height: 125vw;
-		margin-bottom: 27.5vw;
+		height: 145vw;
+		margin-bottom: 40vw;
 		padding: 0vw;
 		padding-top: 2.5vw;
 	}
@@ -160,8 +160,8 @@ svg {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		height: 150vw;
-		margin-bottom: 20vw;
+		height: 160vw;
+		margin-bottom: 30vw;
 	}
 
 	.philosophy-image {
@@ -181,7 +181,7 @@ svg {
 		padding-top: 10vw;
 		justify-content: space-between;
 		height: 175vw;
-		margin-bottom: 5vw;
+		margin-bottom: 25vw;
 	}
 	.durability-image {
 		width: 100%;
@@ -199,7 +199,8 @@ svg {
 		flex-direction: column;
 		justify-content: space-between;
 		margin-top: 5vw;
-		height: 190vw;
+		height: 200vw;
+		margin-bottom: 25vw;
 	}
 	.gardening-image {
 		width: 100%;
