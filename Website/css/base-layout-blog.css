@@ -24,29 +24,38 @@ h3 {
 	justify-content: space-between;
 }
 .blog-div1-text {
-	padding-left: 10vw;
+	padding-left: 6.5vw;
 	width: 35vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 }
 .blog-div1-text p {
-	margin-bottom: 5vw;
+	margin-bottom: 0vw;
 }
 .blog-div1-image {
-	width: 45vw;
+	width: 41.75vw;
 	margin-left: 6.4vw;
 	margin-top: 6vw;
 	z-index: -2;
 }
 .blog-div1-image img {
-	width: 90%;
-	padding-left: 10%;
+	width: 100%;
+}
+.smallbtn {
+	width: 97.5%;
+	height: 1vw;
+	display: flex;
+	justify-content: center;
+	padding: 0.5vw;
+	margin-top: 0vw;
 }
 .blog-div2 {
-	padding: 2.5vw 10vw 0vw 8vw;
+	padding: 2.5vw 10vw 0vw 6.5vw;
 	display: flex;
 	flex-direction: column;
 	height: 50vw;
 	justify-content: space-between;
-	margin-bottom: 10vw;
 }
 .blog-div2-image {
 	padding-top: 5vw;
@@ -58,16 +67,18 @@ h3 {
 .blog-div2-datum {
 	display: flex;
 	flex-direction: column;
-	width: 35vw;
+	width: 35.5vw;
 	text-align: right;
 }
 .blog-div2-datum img {
 	width: 100%;
 }
+
 .blog-div2-verslag {
-	width: 40vw;
+	width: 35vw;
 	height: 80%;
 	display: flex;
+	padding-right: 4vw;
 	flex-direction: column;
 	justify-content: space-between;
 }
@@ -84,26 +95,24 @@ h3 {
 	flex-direction: column;
 }
 .blog-button {
-	width: 35%;
+	width: 47.5%;
 	padding: 0.5vw 1.5vw;
 	border-color: #da593c;
 	border-radius: 20px;
 	border-style: solid;
 	text-align: center;
-	margin-left: 30%;
-	margin-top: 3vw;
+	margin-left: 26.5%;
 	font-family: "santelia-script", sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	color: #da593c;
 	font-size: 2vw;
-	margin-bottom: 0.5vw;
 }
 
 .blog-div4 {
 	padding: 2.5vw 10vw 0vw 10vw;
 	display: flex;
-	height: 70vw;
+	height: 50vw;
 	justify-content: space-between;
 }
 .blog-div4-info {
@@ -144,7 +153,9 @@ nav li:nth-child(5)::marker {
 .smalltitle {
 	margin: 0vw;
 }
-
+.heightened {
+	height: 40vw;
+}
 @media screen and (max-width: 768px) {
 	h1 {
 		font-size: 12.5vw;
@@ -172,7 +183,7 @@ nav li:nth-child(5)::marker {
 	}
 	.blog-div1 {
 		flex-direction: column;
-		margin-top: 20vw;
+		margin-top: 30vw;
 		margin-bottom: 5vw;
 	}
 	.blog-div1-text {

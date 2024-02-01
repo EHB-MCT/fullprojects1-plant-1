@@ -38,12 +38,15 @@ body {
 	padding-right: 2vw;
 	padding-top: 10vw;
 }
+.smallbtn {
+	width: 70%;
+}
 .home-div2-text li {
 	margin-bottom: 1.5vw;
 }
 .home-div2-image {
 	width: 40vw;
-	padding-left: 10vw;
+	padding-left: 8.5vw;
 	padding-bottom: 1vw;
 	vertical-align: middle;
 }

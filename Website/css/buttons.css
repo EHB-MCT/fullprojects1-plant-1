@@ -109,14 +109,17 @@
 	font-weight: 700;
 	font-style: normal;
 	text-decoration: none;
-	padding: 0.5vw 10vw;
+	padding: 0.5vw 5vw;
 	border-color: #733123;
 	border-width: 2px;
 	border-radius: 25px;
 	text-decoration: none;
 	border-style: solid;
 	margin-top: 10vw;
-	font-size: 1.05vw;
+	font-size: 1.5vw;
+	height: 1.5vw;
+	display: flex;
+	justify-content: center;
 }
 .btn-blog:hover {
 	background-color: #733123;
@@ -127,7 +130,8 @@
 	color: #707e67;
 	border-color: #707e67;
 }
-.green:hover {
+
+.green-hover:hover {
 	background-color: #707e67;
 	border-color: #707e67;
 	color: white;
