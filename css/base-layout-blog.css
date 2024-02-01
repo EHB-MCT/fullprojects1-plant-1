@@ -110,30 +110,30 @@ h3 {
 }
 
 .blog-div4 {
-	padding: 2.5vw 10vw 0vw 10vw;
+	padding: 2.5vw 10vw 0vw 6.5vw;
 	display: flex;
+	flex-direction: column;
 	height: 50vw;
 	justify-content: space-between;
 }
 .blog-div4-info {
 	display: flex;
-	justify-content: space-evenly;
+	padding-left: 14.5vw;
 }
 .blog-div4-dates {
-	padding-top: 15vw;
-	width: 40%;
+	padding-top: 2.5vw;
+	width: 30%;
 }
 .blog-div4-dates li {
 	margin-bottom: 17vw;
-	margin-left: -4vw;
-	color: #6b7a62;
+	color: #733123;
 	font-size: 2vw;
 	font-weight: 800;
 }
 .blog-div4-text {
-	padding-top: 15vw;
-	padding-left: 1vw;
-	width: 100%;
+	padding-top: 2.5vw;
+	width: 52.5%;
+	padding-left: 9vw;
 }
 .blog-div4-text li {
 	margin-bottom: 11.5vw;
