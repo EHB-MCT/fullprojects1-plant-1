@@ -171,8 +171,3 @@ svg {
 nav li:nth-child(1)::marker {
 	color: #486d48;
 }
-.grid {
-	width: 100%;
-	z-index: -3;
-	position: absolute;
-}
