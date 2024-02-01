@@ -183,12 +183,13 @@ nav li:nth-child(5)::marker {
 	}
 	.blog-div1 {
 		flex-direction: column;
-		margin-top: 30vw;
+		margin-top: 15vw;
 		margin-bottom: 5vw;
 	}
 	.blog-div1-text {
 		padding: 0vw 10%;
 		width: 80%;
+		height: 125vw;
 	}
 	.blog-div1-image {
 		width: 100%;
@@ -271,5 +272,8 @@ nav li:nth-child(5)::marker {
 	.heightened {
 		height: 205vw;
 		margin-bottom: 0vw;
+	}
+	.smallbtn {
+		height: 5vw;
 	}
 }
