@@ -13,18 +13,17 @@ body {
 	justify-content: space-between;
 }
 .home-div1-text {
-	width: 50vw;
-	padding-left: 13.65vw;
+	width: 28%;
+	padding-left: 14vw;
 }
 .home-div1-image {
-	width: 50vw;
-	padding-top: 2vw;
-	padding-left: 2.5vw;
+	width: 41.5vw;
+	padding-top: 5vw;
 	align-items: right;
+	padding-right: 0.25vw;
 	z-index: -2;
 }
 .home-div1-image img {
-	padding-top: 7.5%;
 	width: 100%;
 }
 .home-div2 {
@@ -86,19 +85,21 @@ svg {
 	.home-div1 {
 		padding: 0vw;
 		width: 100%;
-		height: 165vw;
+		height: 185vw;
 		flex-direction: column;
-		margin-bottom: 20vw;
+		margin-bottom: 10vw;
 	}
 	.home-div1-text {
 		width: 80vw;
 		padding-left: 10vw;
 		padding-top: 20vw;
 	}
-	.home-div1-image,
-	.home-div3-image {
+	.home-div1-image {
+		margin-top: 10vw;
 		width: 100vw;
 		padding: 0vw 0vw 0vw 0vw;
+	}
+	.home-div3-image {
 	}
 	.home-div1-image img,
 	.home-div3-image img {

@@ -70,7 +70,7 @@
 	justify-content: space-between;
 }
 .formulier-info-input2 textarea {
-	height: 80%;
+	height: 90%;
 	width: 94%;
 	margin-bottom: 3%;
 	color: white;
@@ -84,12 +84,16 @@
 	font-style: normal;
 }
 .formulier-info-input2 input {
-	color: white;
-	background-color: #7b8874;
-	border-radius: 7.5px;
-	border: none;
-	height: 7.5%;
-	width: 95%;
+	width: 30%;
+	border-style: solid;
+	border-color: white;
+	height: auto;
+	border-radius: 25px;
+	border-width: 0.1vw;
+	background-color: transparent;
+	font-weight: 400;
+	padding: 0.5vw;
+	margin-top: 0.5vw;
 }
 .contact {
 	margin: 5vw 0vw 5vw 1.25vw;
@@ -102,6 +106,7 @@
 		margin-top: 0px;
 		height: 100vw;
 		width: 80vw;
+		max-width: 80vw;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -110,7 +115,7 @@
 		display: none;
 	}
 	.contact {
-		margin: 15vw 0vw 5vw 1.25vw;
+		margin: 5vw 0vw 5vw 1.25vw;
 	}
 	.div-contact-formulier {
 		display: flex;
@@ -152,12 +157,12 @@
 	}
 	.div-contact-formulier input {
 		height: 5vw;
-		width: 99%;
+		width: 91.5%;
 	}
 	.formulier-info-input1 textarea {
-		height: 50vw;
-		width: 99%;
-		margin-bottom: 3%;
+		height: 45vw;
+		width: 91.5%;
+		margin-bottom: 2vw;
 		color: white;
 		background-color: #7b8874;
 		border-radius: 5px;
@@ -165,8 +170,15 @@
 		border: none;
 	}
 	.formulier-info-input1 input {
-		width: 100%;
+		width: 97.5%;
 		border-style: solid;
 		border-color: white;
+		height: auto;
+		border-radius: 25px;
+		border-width: 0.3vw;
+		background-color: transparent;
+		font-weight: 400;
+		padding: 1vw;
+		margin-top: 5vw;
 	}
 }
