@@ -35,14 +35,14 @@ p {
 }
 .WIW-div1-info {
 	width: 35%;
-	padding-top: 2.5vw;
+	padding-left: 7.25vw;
 	height: 40vw;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
 }
 .WIW-div1-image {
-	width: 49.2vw;
+	width: 48.5vw;
 	padding-top: 2.5vw;
 	padding-right: 0.225vw;
 }
@@ -50,7 +50,7 @@ p {
 	width: 100%;
 }
 .WIW-div2 {
-	margin: 0vw 6.5vw 10vw 0vw;
+	margin: 0vw 6.5vw 7.5vw 0vw;
 	text-align: left;
 	width: auto;
 	display: flex;
@@ -65,8 +65,8 @@ p {
 	height: 40vw;
 }
 .WIW-div2-image {
-	width: 49.2vw;
-	padding-top: 2.5vw;
+	width: 48.5vw;
+	padding-top: 5vw;
 	padding-left: 0.225vw;
 }
 .WIW-div2-image img {
@@ -81,7 +81,9 @@ p {
 	justify-content: space-between;
 }
 .WIW-div3-info {
-	width: 40%;
+	width: 35%;
+	padding-left: 7.25vw;
+	height: 40vw;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;

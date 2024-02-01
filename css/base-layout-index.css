@@ -67,6 +67,9 @@ body {
 	padding-top: 5vw;
 	padding-left: 13.8vw;
 }
+.home-div3-text h2 {
+	width: 20vw;
+}
 .home-div3-text li {
 	margin-bottom: 1.75vw;
 }
