@@ -159,6 +159,9 @@
 	font-size: 1.5vw;
 	width: 27.5vw;
 }
+.btn-gert {
+	width: 27.5vw;
+}
 @keyframes greenisch {
 	0% {
 		border-color: #707e67;

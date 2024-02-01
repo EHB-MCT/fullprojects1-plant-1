@@ -155,6 +155,7 @@ nav li:nth-child(5)::marker {
 }
 .heightened {
 	height: 40vw;
+	margin-bottom: 7.5vw;
 }
 @media screen and (max-width: 768px) {
 	h1 {
